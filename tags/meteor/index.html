@@ -1,0 +1,181 @@
+<!DOCTYPE HTML>
+
+<!-- 
+Strata by HTML5 UP
+html5up.net | @n33co
+Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Meteor &middot; Rudy&#39;s Zone</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<meta name="author" content="Rudy Xiong">
+		<meta name="description" content="Show the flashing">
+		<meta http-equiv="content-language" content="en-us" />
+
+		
+		<meta name="og:site_name" content="Rudy&#39;s Zone">
+		<meta name="og:title" content="Meteor">
+		<meta name="og:url" content="http://xinjiguaike.github.io/tags/meteor/">
+		
+		<meta name="og:image" content="http://xinjiguaike.github.ioimages/avatar.jpg">
+		
+		
+
+		<meta name="generator" content="Hugo 0.27.1" />
+
+		<!--[if lte IE 8]><script src='http://xinjiguaike.github.iojs/ie/html5shiv.js'></script><![endif]-->
+		<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<link rel="stylesheet" href="http://xinjiguaike.github.iocss/main.css" />
+		<!--[if lte IE 8]><link rel="stylesheet" href="http://xinjiguaike.github.io/css/ie8.css"><![endif]-->
+
+		
+		<link href="http://xinjiguaike.github.io/tags/meteor/index.xml" rel="alternate" type="application/rss+xml" title="Rudy&#39;s Zone" />
+		<link href="http://xinjiguaike.github.io/tags/meteor/index.xml" rel="feed" type="application/rss+xml" title="Rudy&#39;s Zone" />
+		
+		
+	</head>
+
+	<body id="top">
+		<!-- Header -->
+<header id="header">
+	
+	<a href="http://xinjiguaike.github.io" class="image avatar"><img src="http://xinjiguaike.github.ioimages/avatar.jpg" alt="" /></a>
+	
+	
+		<h1><strong>I&rsquo;m Rudy</strong>, a coder, a designer<br> and an architect, worked for <br> <a href="//cisco.com">Cisco</a>, <a href="//codyy.com">Codyy</a>, <a href="//medku.com">Medku</a>.</h1>
+	
+
+	
+		<nav id="sidebar">
+			<ul>
+			
+				<li><a href="http://xinjiguaike.github.io/">Home</a></li>
+			
+				<li><a href="http://xinjiguaike.github.io/post/">Blog</a></li>
+			
+			</ul>
+		</nav>
+	
+</header>
+
+
+		<!-- Main -->
+		<div id="main">
+			
+    
+
+    
+    
+        <span>
+    <h1>
+        <a href="http://xinjiguaike.github.io/post/100005/">Meteor部署问题汇总</a>
+    </h1>
+
+    <i class="fa fa-calendar"></i>&nbsp;&nbsp;
+<time datetime="2018-07-13 16:30:49 &#43;0800 CST">2018-07-13</time>&nbsp;&nbsp;
+
+
+
+
+    
+    
+        <i class="fa fa-folder"></i>&nbsp;&nbsp;
+        
+        <a class="article-category-link" href="http://xinjiguaike.github.iocategories/%e7%8e%af%e5%a2%83%e9%83%a8%e7%bd%b2">环境部署</a>
+        
+        
+    
+
+
+
+   
+   
+       &nbsp;&nbsp;<i class="fa fa-tags"></i>&nbsp;&nbsp;
+       
+       <a class="article-category-link" href="http://xinjiguaike.github.iotags/meteor">Meteor</a>
+       &middot;
+       
+       <a class="article-category-link" href="http://xinjiguaike.github.iotags/node.js">node.js</a>
+       &middot;
+       
+       <a class="article-category-link" href="http://xinjiguaike.github.iotags/npm">npm</a>
+       &middot;
+       
+       <a class="article-category-link" href="http://xinjiguaike.github.iotags/mongo">mongo</a>
+       
+       
+   
+
+
+</span>
+
+<p>服务器环境部署meteor 服务器包含： nodejs、git、mongodb
+ 安装meteor
+$ curl https://install.meteor.com/ | sh  安装demeteorizer
+$ npm install -g demeteorizer  安装pm2
+$ npm install -g pm2  在仓库根目录键入
+$ demeteorizer  打包(构建nodejs可用)代码
+ $ cd .demeteorized/bundle/programs/server  $ npm install  返回仓库根目录键入
+$ MONGO_URL=mongodb://localhost:27017/test PORT=80 ROOT_URL=http://localhost:80 pm2 start main.js   Node.js 管理： 参考 https://www.kancloud.cn/summer/nodejs-install/71975 安装最新版本（包含了npm，无需单独安装）
+ 安装 nvm
+$ curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.32.1/install.sh | bash  or Wget:
+$ wget -qO- https://raw.</p>
+<hr>
+
+    
+
+    
+
+
+		</div>
+
+		<!-- Footer -->
+<footer id="footer">
+	<ul class="icons">
+		
+		
+		
+		<li><a href="//twitter.com/rudyxiong" target="_blank" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
+		
+		
+		<li><a href="//github.com/xinjiguaike" target="_blank" class="icon fa-github"><span class="label">GitHub</span></a></li>
+		
+		
+		
+		<li><a href="//linkedin.com/in/%e4%ba%9a%e5%b9%b3-%e7%86%8a-532631105" target="_blank" class="icon fa-linkedin-square"><span class="label">Linkedin</span></a></li>
+		
+		
+		
+		
+		<li><a href="http://xinjiguaike.github.io#contact-form" class="icon fa-envelope-o"><span class="label">Email</span></a></li>
+		
+		
+	</ul>
+
+	<ul class="copyright">
+		
+		<li>&copy; Rudy Xiong</li>
+		
+		<li>Design: <a href="//html5up.net">HTML5 UP</a></li>
+		
+		<li>Images: Rudy &amp; Juan</li>
+		
+	</ul>
+</footer>
+
+<!-- Scripts -->
+<script src="http://xinjiguaike.github.iojs/jquery.min.js"></script>
+<script src="http://xinjiguaike.github.iojs/jquery.poptrox.min.js"></script>
+<script src="http://xinjiguaike.github.iojs/skel.min.js"></script>
+<script src="http://xinjiguaike.github.iojs/util.js"></script>
+
+<script src="http://xinjiguaike.github.iojs/main.js"></script>
+
+
+
+
+
+	</body>
+</html>

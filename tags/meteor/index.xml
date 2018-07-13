@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Meteor on Rudy&#39;s Zone</title>
+    <link>http://xinjiguaike.github.io/tags/meteor/</link>
+    <description>Recent content in Meteor on Rudy&#39;s Zone</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 13 Jul 2018 16:30:49 +0800</lastBuildDate>
+    
+	<atom:link href="http://xinjiguaike.github.io/tags/meteor/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Meteor部署问题汇总</title>
+      <link>http://xinjiguaike.github.io/post/100005/</link>
+      <pubDate>Fri, 13 Jul 2018 16:30:49 +0800</pubDate>
+      
+      <guid>http://xinjiguaike.github.io/post/100005/</guid>
+      <description>服务器环境部署meteor 服务器包含： nodejs、git、mongodb
+ 安装meteor
+$ curl https://install.meteor.com/ | sh  安装demeteorizer
+$ npm install -g demeteorizer  安装pm2
+$ npm install -g pm2  在仓库根目录键入
+$ demeteorizer  打包(构建nodejs可用)代码
+ $ cd .demeteorized/bundle/programs/server  $ npm install  返回仓库根目录键入
+$ MONGO_URL=mongodb://localhost:27017/test PORT=80 ROOT_URL=http://localhost:80 pm2 start main.js   Node.js 管理： 参考 https://www.kancloud.cn/summer/nodejs-install/71975 安装最新版本（包含了npm，无需单独安装）
+ 安装 nvm
+$ curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.32.1/install.sh | bash  or Wget:
+$ wget -qO- https://raw.</description>
+    </item>
+    
+  </channel>
+</rss>

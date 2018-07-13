@@ -1,0 +1,223 @@
+<!DOCTYPE HTML>
+
+<!-- 
+Strata by HTML5 UP
+html5up.net | @n33co
+Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Ubuntu &middot; Rudy&#39;s Zone</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<meta name="author" content="Rudy Xiong">
+		<meta name="description" content="Show the flashing">
+		<meta http-equiv="content-language" content="en-us" />
+
+		
+		<meta name="og:site_name" content="Rudy&#39;s Zone">
+		<meta name="og:title" content="Ubuntu">
+		<meta name="og:url" content="http://xinjiguaike.github.io/tags/ubuntu/">
+		
+		<meta name="og:image" content="http://xinjiguaike.github.ioimages/avatar.jpg">
+		
+		
+
+		<meta name="generator" content="Hugo 0.27.1" />
+
+		<!--[if lte IE 8]><script src='http://xinjiguaike.github.iojs/ie/html5shiv.js'></script><![endif]-->
+		<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<link rel="stylesheet" href="http://xinjiguaike.github.iocss/main.css" />
+		<!--[if lte IE 8]><link rel="stylesheet" href="http://xinjiguaike.github.io/css/ie8.css"><![endif]-->
+
+		
+		<link href="http://xinjiguaike.github.io/tags/ubuntu/index.xml" rel="alternate" type="application/rss+xml" title="Rudy&#39;s Zone" />
+		<link href="http://xinjiguaike.github.io/tags/ubuntu/index.xml" rel="feed" type="application/rss+xml" title="Rudy&#39;s Zone" />
+		
+		
+	</head>
+
+	<body id="top">
+		<!-- Header -->
+<header id="header">
+	
+	<a href="http://xinjiguaike.github.io" class="image avatar"><img src="http://xinjiguaike.github.ioimages/avatar.jpg" alt="" /></a>
+	
+	
+		<h1><strong>I&rsquo;m Rudy</strong>, a coder, a designer<br> and an architect, worked for <br> <a href="//cisco.com">Cisco</a>, <a href="//codyy.com">Codyy</a>, <a href="//medku.com">Medku</a>.</h1>
+	
+
+	
+		<nav id="sidebar">
+			<ul>
+			
+				<li><a href="http://xinjiguaike.github.io/">Home</a></li>
+			
+				<li><a href="http://xinjiguaike.github.io/post/">Blog</a></li>
+			
+			</ul>
+		</nav>
+	
+</header>
+
+
+		<!-- Main -->
+		<div id="main">
+			
+    
+
+    
+    
+        <span>
+    <h1>
+        <a href="http://xinjiguaike.github.io/post/100007/">Ubuntu设置静态IP</a>
+    </h1>
+
+    <i class="fa fa-calendar"></i>&nbsp;&nbsp;
+<time datetime="2018-07-13 17:30:49 &#43;0800 CST">2018-07-13</time>&nbsp;&nbsp;
+
+
+
+
+    
+    
+        <i class="fa fa-folder"></i>&nbsp;&nbsp;
+        
+        <a class="article-category-link" href="http://xinjiguaike.github.iocategories/%e6%93%8d%e4%bd%9c%e7%b3%bb%e7%bb%9f">操作系统</a>
+        
+        
+    
+
+
+
+   
+   
+       &nbsp;&nbsp;<i class="fa fa-tags"></i>&nbsp;&nbsp;
+       
+       <a class="article-category-link" href="http://xinjiguaike.github.iotags/linux">Linux</a>
+       &middot;
+       
+       <a class="article-category-link" href="http://xinjiguaike.github.iotags/ubuntu">ubuntu</a>
+       &middot;
+       
+       <a class="article-category-link" href="http://xinjiguaike.github.iotags/ip%e8%ae%be%e7%bd%ae">ip设置</a>
+       
+       
+   
+
+
+</span>
+
+<p> Ubuntu的网络参数保存在文件 /etc/network/interfaces中，默认设置使用dhcp，内容如下： # The primary network interface auto eth0 iface eth0 inet dhcp  设置静态ip的方法如下：  编辑 /etc/network/interfaces
+a. 将dhcp 一行屏蔽
+# The primary network interface auto eth0 #iface eth0 inet dhcp  b. 添加和静态ip有关的参数
+# The primary network interface iface eth0 inet static\ address 192.168.0.10 netmask 255.255.255.0 gateway 192.168.0.1  编辑 /etc/resolv.conf，设置dns
+nameserver 202.96.134.133 nameserver 202.106.0.20  执行下面两个命令，启用新设置
+$sudo ifdown eth0 $sudo ifup eth0   </p>
+<hr>
+
+    
+        <span>
+    <h1>
+        <a href="http://xinjiguaike.github.io/post/100004/">Docker环境部署问题汇总</a>
+    </h1>
+
+    <i class="fa fa-calendar"></i>&nbsp;&nbsp;
+<time datetime="2018-07-13 15:30:49 &#43;0800 CST">2018-07-13</time>&nbsp;&nbsp;
+
+
+
+
+    
+    
+        <i class="fa fa-folder"></i>&nbsp;&nbsp;
+        
+        <a class="article-category-link" href="http://xinjiguaike.github.iocategories/%e7%8e%af%e5%a2%83%e9%83%a8%e7%bd%b2">环境部署</a>
+        
+        
+    
+
+
+
+   
+   
+       &nbsp;&nbsp;<i class="fa fa-tags"></i>&nbsp;&nbsp;
+       
+       <a class="article-category-link" href="http://xinjiguaike.github.iotags/docker">docker</a>
+       &middot;
+       
+       <a class="article-category-link" href="http://xinjiguaike.github.iotags/ubuntu">ubuntu</a>
+       &middot;
+       
+       <a class="article-category-link" href="http://xinjiguaike.github.iotags/centos">centos</a>
+       &middot;
+       
+       <a class="article-category-link" href="http://xinjiguaike.github.iotags/ssh">ssh</a>
+       
+       
+   
+
+
+</span>
+
+<p>docker 相关命令：  docker ps: 查看当前运行的容器 docker ps -a : 查看所有的容器 docker start {容器id或name} 启动指定容器 docker stop {容器id或name} 停止指定容器 docker rm {容器id或name} 删除指定容器  具体docker相关使用指导参考： http://kb.cnblogs.com/page/536115/
+运行docker容器，出现如下错误： Cannot connect to the Docker daemon. Is the docker daemon running on this host?  解决方法参见下面链接： http://blog.csdn.net/hejjiiee/article/details/53509744
+Ubutntu安装完Docker后，执行 $ sudo service docker start  提示 Failed to start docker.service: Unit docker.service is masked.  解决方案： 执行如下三条指令
+$ systemctl unmask docker.service $ systemctl unmask docker.</p>
+<hr>
+
+    
+
+    
+
+
+		</div>
+
+		<!-- Footer -->
+<footer id="footer">
+	<ul class="icons">
+		
+		
+		
+		<li><a href="//twitter.com/rudyxiong" target="_blank" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
+		
+		
+		<li><a href="//github.com/xinjiguaike" target="_blank" class="icon fa-github"><span class="label">GitHub</span></a></li>
+		
+		
+		
+		<li><a href="//linkedin.com/in/%e4%ba%9a%e5%b9%b3-%e7%86%8a-532631105" target="_blank" class="icon fa-linkedin-square"><span class="label">Linkedin</span></a></li>
+		
+		
+		
+		
+		<li><a href="http://xinjiguaike.github.io#contact-form" class="icon fa-envelope-o"><span class="label">Email</span></a></li>
+		
+		
+	</ul>
+
+	<ul class="copyright">
+		
+		<li>&copy; Rudy Xiong</li>
+		
+		<li>Design: <a href="//html5up.net">HTML5 UP</a></li>
+		
+		<li>Images: Rudy &amp; Juan</li>
+		
+	</ul>
+</footer>
+
+<!-- Scripts -->
+<script src="http://xinjiguaike.github.iojs/jquery.min.js"></script>
+<script src="http://xinjiguaike.github.iojs/jquery.poptrox.min.js"></script>
+<script src="http://xinjiguaike.github.iojs/skel.min.js"></script>
+<script src="http://xinjiguaike.github.iojs/util.js"></script>
+
+<script src="http://xinjiguaike.github.iojs/main.js"></script>
+
+
+
+
+
+	</body>
+</html>

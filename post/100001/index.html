@@ -1,0 +1,190 @@
+<!DOCTYPE HTML>
+
+<!-- 
+Strata by HTML5 UP
+html5up.net | @n33co
+Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>ionic 模拟器运行失败解决方案 &middot; Rudy&#39;s Zone</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<meta name="author" content="Rudy Xiong">
+		<meta name="description" content="Show the flashing">
+		<meta http-equiv="content-language" content="en-us" />
+
+		
+		<meta name="og:site_name" content="Rudy&#39;s Zone">
+		<meta name="og:title" content="ionic 模拟器运行失败解决方案">
+		<meta name="og:url" content="http://xinjiguaike.github.io/post/100001/">
+		
+		<meta name="og:image" content="http://xinjiguaike.github.ioimages/avatar.jpg">
+		
+		
+
+		<meta name="generator" content="Hugo 0.27.1" />
+
+		<!--[if lte IE 8]><script src='http://xinjiguaike.github.iojs/ie/html5shiv.js'></script><![endif]-->
+		<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<link rel="stylesheet" href="http://xinjiguaike.github.iocss/main.css" />
+		<!--[if lte IE 8]><link rel="stylesheet" href="http://xinjiguaike.github.io/css/ie8.css"><![endif]-->
+
+		
+		
+	</head>
+
+	<body id="top">
+		<!-- Header -->
+<header id="header">
+	
+	<a href="http://xinjiguaike.github.io" class="image avatar"><img src="http://xinjiguaike.github.ioimages/avatar.jpg" alt="" /></a>
+	
+	
+		<h1><strong>I&rsquo;m Rudy</strong>, a coder, a designer<br> and an architect, worked for <br> <a href="//cisco.com">Cisco</a>, <a href="//codyy.com">Codyy</a>, <a href="//medku.com">Medku</a>.</h1>
+	
+
+	
+		<nav id="sidebar">
+			<ul>
+			
+				<li><a href="http://xinjiguaike.github.io/">Home</a></li>
+			
+				<li><a href="http://xinjiguaike.github.io/post/">Blog</a></li>
+			
+			</ul>
+		</nav>
+	
+</header>
+
+
+		<!-- Main -->
+		<div id="main">
+			
+	<span>
+		<h1>ionic 模拟器运行失败解决方案</h1>
+
+		<i class="fa fa-calendar"></i>&nbsp;&nbsp;
+<time datetime="2018-07-04 13:50:46 &#43;0200 &#43;0200">2018-07-04</time>&nbsp;&nbsp;
+
+
+
+
+    
+    
+        <i class="fa fa-folder"></i>&nbsp;&nbsp;
+        
+        <a class="article-category-link" href="http://xinjiguaike.github.iocategories/%e7%a7%bb%e5%8a%a8%e5%bc%80%e5%8f%91">移动开发</a>
+        
+        
+    
+
+
+
+   
+   
+       &nbsp;&nbsp;<i class="fa fa-tags"></i>&nbsp;&nbsp;
+       
+       <a class="article-category-link" href="http://xinjiguaike.github.iotags/ionic-3">ionic 3</a>
+       &middot;
+       
+       <a class="article-category-link" href="http://xinjiguaike.github.iotags/ios-simulator">ios simulator</a>
+       
+       
+   
+
+
+	</span>
+
+	<p>
+	    
+
+<h4 id="提示错误">提示错误：</h4>
+
+<p>命令行中编译项目成功，但是无法直接运行至模拟器，提示如下错误：</p>
+
+<pre><code>No target specified for emulator. Deploying to undefined simulatorDevice type
+&quot;com.apple.CoreSimulator.SimDeviceType.undefined&quot; could not be found.[ERROR] 
+An error occurred while running cordova run ios (exit code 1).
+</code></pre>
+
+<h4 id="解决方案">解决方案：</h4>
+
+<p>在项目根目录下运行如下命令</p>
+
+<pre><code>cd platforms/ios/cordova &amp;&amp; npm install ios-sim@latest
+</code></pre>
+
+	</p>
+
+	<div id="disqus_thread"></div>
+<script>
+    var disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "spf13" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+
+		</div>
+
+		<!-- Footer -->
+<footer id="footer">
+	<ul class="icons">
+		
+		
+		
+		<li><a href="//twitter.com/rudyxiong" target="_blank" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
+		
+		
+		<li><a href="//github.com/xinjiguaike" target="_blank" class="icon fa-github"><span class="label">GitHub</span></a></li>
+		
+		
+		
+		<li><a href="//linkedin.com/in/%e4%ba%9a%e5%b9%b3-%e7%86%8a-532631105" target="_blank" class="icon fa-linkedin-square"><span class="label">Linkedin</span></a></li>
+		
+		
+		
+		
+		<li><a href="http://xinjiguaike.github.io#contact-form" class="icon fa-envelope-o"><span class="label">Email</span></a></li>
+		
+		
+	</ul>
+
+	<ul class="copyright">
+		
+		<li>&copy; Rudy Xiong</li>
+		
+		<li>Design: <a href="//html5up.net">HTML5 UP</a></li>
+		
+		<li>Images: Rudy &amp; Juan</li>
+		
+	</ul>
+</footer>
+
+<!-- Scripts -->
+<script src="http://xinjiguaike.github.iojs/jquery.min.js"></script>
+<script src="http://xinjiguaike.github.iojs/jquery.poptrox.min.js"></script>
+<script src="http://xinjiguaike.github.iojs/skel.min.js"></script>
+<script src="http://xinjiguaike.github.iojs/util.js"></script>
+
+<script src="http://xinjiguaike.github.iojs/main.js"></script>
+
+
+
+
+
+	</body>
+</html>

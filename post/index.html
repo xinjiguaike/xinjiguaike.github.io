@@ -17,22 +17,22 @@ Free for personal and commercial use under the CCA 3.0 license (html5up.net/lice
 		
 		<meta name="og:site_name" content="Rudy&#39;s Zone">
 		<meta name="og:title" content="Posts">
-		<meta name="og:url" content="https://xinjiguaike.github.io/post/">
+		<meta name="og:url" content="http://xinjiguaike.github.io/post/">
 		
-		<meta name="og:image" content="https://xinjiguaike.github.io/images/avatar.jpg">
+		<meta name="og:image" content="http://xinjiguaike.github.ioimages/avatar.jpg">
 		
 		
 
 		<meta name="generator" content="Hugo 0.27.1" />
 
-		<!--[if lte IE 8]><script src='https://xinjiguaike.github.io/js/ie/html5shiv.js'></script><![endif]-->
+		<!--[if lte IE 8]><script src='http://xinjiguaike.github.iojs/ie/html5shiv.js'></script><![endif]-->
 		<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-		<link rel="stylesheet" href="https://xinjiguaike.github.io/css/main.css" />
-		<!--[if lte IE 8]><link rel="stylesheet" href="https://xinjiguaike.github.io//css/ie8.css"><![endif]-->
+		<link rel="stylesheet" href="http://xinjiguaike.github.iocss/main.css" />
+		<!--[if lte IE 8]><link rel="stylesheet" href="http://xinjiguaike.github.io/css/ie8.css"><![endif]-->
 
 		
-		<link href="https://xinjiguaike.github.io/post/index.xml" rel="alternate" type="application/rss+xml" title="Rudy&#39;s Zone" />
-		<link href="https://xinjiguaike.github.io/post/index.xml" rel="feed" type="application/rss+xml" title="Rudy&#39;s Zone" />
+		<link href="http://xinjiguaike.github.io/post/index.xml" rel="alternate" type="application/rss+xml" title="Rudy&#39;s Zone" />
+		<link href="http://xinjiguaike.github.io/post/index.xml" rel="feed" type="application/rss+xml" title="Rudy&#39;s Zone" />
 		
 		
 	</head>
@@ -41,19 +41,19 @@ Free for personal and commercial use under the CCA 3.0 license (html5up.net/lice
 		<!-- Header -->
 <header id="header">
 	
-	<a href="https://xinjiguaike.github.io/" class="image avatar"><img src="https://xinjiguaike.github.io/images/avatar.jpg" alt="" /></a>
+	<a href="http://xinjiguaike.github.io" class="image avatar"><img src="http://xinjiguaike.github.ioimages/avatar.jpg" alt="" /></a>
 	
 	
-		<h1><strong>I&rsquo;m Rudy</strong>, a coder, designer<br> and also an architect, worked for <br> <a href="//cisco.com">Cisco</a>, <a href="//codyy.com">Codyy</a>, <a href="//medku.com">Medku</a>.</h1>
+		<h1><strong>I&rsquo;m Rudy</strong>, a coder, a designer<br> and an architect, worked for <br> <a href="//cisco.com">Cisco</a>, <a href="//codyy.com">Codyy</a>, <a href="//medku.com">Medku</a>.</h1>
 	
 
 	
 		<nav id="sidebar">
 			<ul>
 			
-				<li><a href="https://xinjiguaike.github.io/">Home</a></li>
+				<li><a href="http://xinjiguaike.github.io/">Home</a></li>
 			
-				<li><a href="https://xinjiguaike.github.io/post/">Blog</a></li>
+				<li><a href="http://xinjiguaike.github.io/post/">Blog</a></li>
 			
 			</ul>
 		</nav>
@@ -70,21 +70,335 @@ Free for personal and commercial use under the CCA 3.0 license (html5up.net/lice
     
         <span>
     <h1>
-        <a href="https://xinjiguaike.github.io/post/first/">First</a>
+        <a href="http://xinjiguaike.github.io/post/100007/">Ubuntu设置静态IP</a>
     </h1>
 
     <i class="fa fa-calendar"></i>&nbsp;&nbsp;
-<time datetime="2018-05-28 15:30:49 &#43;0800 CST">2018-05-28</time>&nbsp;&nbsp;
+<time datetime="2018-07-13 17:30:49 &#43;0800 CST">2018-07-13</time>&nbsp;&nbsp;
 
 
 
 
+    
+    
+        <i class="fa fa-folder"></i>&nbsp;&nbsp;
+        
+        <a class="article-category-link" href="http://xinjiguaike.github.iocategories/%e6%93%8d%e4%bd%9c%e7%b3%bb%e7%bb%9f">操作系统</a>
+        
+        
+    
 
+
+
+   
+   
+       &nbsp;&nbsp;<i class="fa fa-tags"></i>&nbsp;&nbsp;
+       
+       <a class="article-category-link" href="http://xinjiguaike.github.iotags/linux">Linux</a>
+       &middot;
+       
+       <a class="article-category-link" href="http://xinjiguaike.github.iotags/ubuntu">ubuntu</a>
+       &middot;
+       
+       <a class="article-category-link" href="http://xinjiguaike.github.iotags/ip%e8%ae%be%e7%bd%ae">ip设置</a>
+       
+       
+   
 
 
 </span>
 
-<p></p>
+<p> Ubuntu的网络参数保存在文件 /etc/network/interfaces中，默认设置使用dhcp，内容如下： # The primary network interface auto eth0 iface eth0 inet dhcp  设置静态ip的方法如下：  编辑 /etc/network/interfaces
+a. 将dhcp 一行屏蔽
+# The primary network interface auto eth0 #iface eth0 inet dhcp  b. 添加和静态ip有关的参数
+# The primary network interface iface eth0 inet static\ address 192.168.0.10 netmask 255.255.255.0 gateway 192.168.0.1  编辑 /etc/resolv.conf，设置dns
+nameserver 202.96.134.133 nameserver 202.106.0.20  执行下面两个命令，启用新设置
+$sudo ifdown eth0 $sudo ifup eth0   </p>
+<hr>
+
+    
+        <span>
+    <h1>
+        <a href="http://xinjiguaike.github.io/post/100006/">基于keystoneJS的后台管理系统</a>
+    </h1>
+
+    <i class="fa fa-calendar"></i>&nbsp;&nbsp;
+<time datetime="2018-07-13 17:30:49 &#43;0800 CST">2018-07-13</time>&nbsp;&nbsp;
+
+
+
+
+    
+    
+        <i class="fa fa-folder"></i>&nbsp;&nbsp;
+        
+        <a class="article-category-link" href="http://xinjiguaike.github.iocategories/%e7%8e%af%e5%a2%83%e9%83%a8%e7%bd%b2">环境部署</a>
+        
+        
+    
+
+
+
+   
+   
+       &nbsp;&nbsp;<i class="fa fa-tags"></i>&nbsp;&nbsp;
+       
+       <a class="article-category-link" href="http://xinjiguaike.github.iotags/keystonejs">keystoneJS</a>
+       &middot;
+       
+       <a class="article-category-link" href="http://xinjiguaike.github.iotags/node.js">node.js</a>
+       &middot;
+       
+       <a class="article-category-link" href="http://xinjiguaike.github.iotags/nginx">nginx</a>
+       &middot;
+       
+       <a class="article-category-link" href="http://xinjiguaike.github.iotags/mongo">mongo</a>
+       &middot;
+       
+       <a class="article-category-link" href="http://xinjiguaike.github.iotags/redis">redis</a>
+       &middot;
+       
+       <a class="article-category-link" href="http://xinjiguaike.github.iotags/pm2">pm2</a>
+       
+       
+   
+
+
+</span>
+
+<p> 环境安装：  node 环境（node，npm, 建议nvm管理） pm2 安装（npm install -g pm2） nginx 安装 redis 安装 mongo 安装  项目部署：  下载代码（git clone） 创建config.js() npm install(/var/www/drtalent-web) 配置nginx反向代理 pm2 start bin/www  连接远程mongo服务器 mongo --host xxx -u adminUserName -p userPassword --authenticationDatabase admin  mongo 10.66.233.21:27017/admin -u mongouser -p Mengning123456  关于keystone主题颜色定制：  修改./node_modules/elemental/less/variables.less 中 @app-primary的值（修改主题颜色） 修改./node_modules/keystone/admin/client/theme.js 中 theme.color中的primary的值（修改控件主题颜色）（注意修改后删除已编译文件）  </p>
+<hr>
+
+    
+        <span>
+    <h1>
+        <a href="http://xinjiguaike.github.io/post/100005/">Meteor部署问题汇总</a>
+    </h1>
+
+    <i class="fa fa-calendar"></i>&nbsp;&nbsp;
+<time datetime="2018-07-13 16:30:49 &#43;0800 CST">2018-07-13</time>&nbsp;&nbsp;
+
+
+
+
+    
+    
+        <i class="fa fa-folder"></i>&nbsp;&nbsp;
+        
+        <a class="article-category-link" href="http://xinjiguaike.github.iocategories/%e7%8e%af%e5%a2%83%e9%83%a8%e7%bd%b2">环境部署</a>
+        
+        
+    
+
+
+
+   
+   
+       &nbsp;&nbsp;<i class="fa fa-tags"></i>&nbsp;&nbsp;
+       
+       <a class="article-category-link" href="http://xinjiguaike.github.iotags/meteor">Meteor</a>
+       &middot;
+       
+       <a class="article-category-link" href="http://xinjiguaike.github.iotags/node.js">node.js</a>
+       &middot;
+       
+       <a class="article-category-link" href="http://xinjiguaike.github.iotags/npm">npm</a>
+       &middot;
+       
+       <a class="article-category-link" href="http://xinjiguaike.github.iotags/mongo">mongo</a>
+       
+       
+   
+
+
+</span>
+
+<p>服务器环境部署meteor 服务器包含： nodejs、git、mongodb
+ 安装meteor
+$ curl https://install.meteor.com/ | sh  安装demeteorizer
+$ npm install -g demeteorizer  安装pm2
+$ npm install -g pm2  在仓库根目录键入
+$ demeteorizer  打包(构建nodejs可用)代码
+ $ cd .demeteorized/bundle/programs/server  $ npm install  返回仓库根目录键入
+$ MONGO_URL=mongodb://localhost:27017/test PORT=80 ROOT_URL=http://localhost:80 pm2 start main.js   Node.js 管理： 参考 https://www.kancloud.cn/summer/nodejs-install/71975 安装最新版本（包含了npm，无需单独安装）
+ 安装 nvm
+$ curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.32.1/install.sh | bash  or Wget:
+$ wget -qO- https://raw.</p>
+<hr>
+
+    
+        <span>
+    <h1>
+        <a href="http://xinjiguaike.github.io/post/100004/">Docker环境部署问题汇总</a>
+    </h1>
+
+    <i class="fa fa-calendar"></i>&nbsp;&nbsp;
+<time datetime="2018-07-13 15:30:49 &#43;0800 CST">2018-07-13</time>&nbsp;&nbsp;
+
+
+
+
+    
+    
+        <i class="fa fa-folder"></i>&nbsp;&nbsp;
+        
+        <a class="article-category-link" href="http://xinjiguaike.github.iocategories/%e7%8e%af%e5%a2%83%e9%83%a8%e7%bd%b2">环境部署</a>
+        
+        
+    
+
+
+
+   
+   
+       &nbsp;&nbsp;<i class="fa fa-tags"></i>&nbsp;&nbsp;
+       
+       <a class="article-category-link" href="http://xinjiguaike.github.iotags/docker">docker</a>
+       &middot;
+       
+       <a class="article-category-link" href="http://xinjiguaike.github.iotags/ubuntu">ubuntu</a>
+       &middot;
+       
+       <a class="article-category-link" href="http://xinjiguaike.github.iotags/centos">centos</a>
+       &middot;
+       
+       <a class="article-category-link" href="http://xinjiguaike.github.iotags/ssh">ssh</a>
+       
+       
+   
+
+
+</span>
+
+<p>docker 相关命令：  docker ps: 查看当前运行的容器 docker ps -a : 查看所有的容器 docker start {容器id或name} 启动指定容器 docker stop {容器id或name} 停止指定容器 docker rm {容器id或name} 删除指定容器  具体docker相关使用指导参考： http://kb.cnblogs.com/page/536115/
+运行docker容器，出现如下错误： Cannot connect to the Docker daemon. Is the docker daemon running on this host?  解决方法参见下面链接： http://blog.csdn.net/hejjiiee/article/details/53509744
+Ubutntu安装完Docker后，执行 $ sudo service docker start  提示 Failed to start docker.service: Unit docker.service is masked.  解决方案： 执行如下三条指令
+$ systemctl unmask docker.service $ systemctl unmask docker.</p>
+<hr>
+
+    
+        <span>
+    <h1>
+        <a href="http://xinjiguaike.github.io/post/100003/">高性能架构师必备技能</a>
+    </h1>
+
+    <i class="fa fa-calendar"></i>&nbsp;&nbsp;
+<time datetime="2018-07-13 14:30:49 &#43;0800 CST">2018-07-13</time>&nbsp;&nbsp;
+
+
+
+
+    
+    
+        <i class="fa fa-folder"></i>&nbsp;&nbsp;
+        
+        <a class="article-category-link" href="http://xinjiguaike.github.iocategories/%e8%a7%86%e9%a2%91%e8%b5%84%e6%ba%90">视频资源</a>
+        
+        
+    
+
+
+
+   
+   
+       &nbsp;&nbsp;<i class="fa fa-tags"></i>&nbsp;&nbsp;
+       
+       <a class="article-category-link" href="http://xinjiguaike.github.iotags/%e6%a8%a1%e5%9d%97%e9%80%9a%e4%bf%a1">模块通信</a>
+       &middot;
+       
+       <a class="article-category-link" href="http://xinjiguaike.github.iotags/%e7%b3%bb%e7%bb%9f%e6%9e%b6%e6%9e%84">系统架构</a>
+       
+       
+   
+
+
+</span>
+
+<p> Rock - 模块通信 链接：http://pan.baidu.com/s/1dFk1rrz 密码：qsk2 Lee - 高性能架构师必备技能-远程调用RPC从入门到精通 链接：http://pan.baidu.com/s/1bpbHZ91 密码：0a8j King - 高性能架构师必备技能 — 去中心化的网络架构解析 链接：http://pan.baidu.com/s/1pKBBewN 密码：ps85 Lee - 高性能架构师必备技能-无锁消息队列的实现 链接：http://pan.baidu.com/s/1boOk8Rd 密码：na9w King - 高性能架构师必备技能 — 定位系统架构解析与实现 链接：http://pan.baidu.com/s/1slA0XL7 密码：zzhh  </p>
+<hr>
+
+    
+        <span>
+    <h1>
+        <a href="http://xinjiguaike.github.io/post/100002/">pm2 服务开机自启动</a>
+    </h1>
+
+    <i class="fa fa-calendar"></i>&nbsp;&nbsp;
+<time datetime="2018-07-13 12:30:49 &#43;0800 CST">2018-07-13</time>&nbsp;&nbsp;
+
+
+
+
+    
+    
+        <i class="fa fa-folder"></i>&nbsp;&nbsp;
+        
+        <a class="article-category-link" href="http://xinjiguaike.github.iocategories/%e5%90%8e%e7%ab%af%e5%bc%80%e5%8f%91">后端开发</a>
+        
+        
+    
+
+
+
+   
+   
+       &nbsp;&nbsp;<i class="fa fa-tags"></i>&nbsp;&nbsp;
+       
+       <a class="article-category-link" href="http://xinjiguaike.github.iotags/node.js">node.js</a>
+       &middot;
+       
+       <a class="article-category-link" href="http://xinjiguaike.github.iotags/pm2">pm2</a>
+       
+       
+   
+
+
+</span>
+
+<p>pm2 start index.js —name app_name pm2 save pm2 startup(按照CLI提示复制相应命令并执行)  参考： https://pm2.io/doc/en/runtime/guide/startup-hook/#installation</p>
+<hr>
+
+    
+        <span>
+    <h1>
+        <a href="http://xinjiguaike.github.io/post/100001/">ionic 模拟器运行失败解决方案</a>
+    </h1>
+
+    <i class="fa fa-calendar"></i>&nbsp;&nbsp;
+<time datetime="2018-07-04 13:50:46 &#43;0200 &#43;0200">2018-07-04</time>&nbsp;&nbsp;
+
+
+
+
+    
+    
+        <i class="fa fa-folder"></i>&nbsp;&nbsp;
+        
+        <a class="article-category-link" href="http://xinjiguaike.github.iocategories/%e7%a7%bb%e5%8a%a8%e5%bc%80%e5%8f%91">移动开发</a>
+        
+        
+    
+
+
+
+   
+   
+       &nbsp;&nbsp;<i class="fa fa-tags"></i>&nbsp;&nbsp;
+       
+       <a class="article-category-link" href="http://xinjiguaike.github.iotags/ionic-3">ionic 3</a>
+       &middot;
+       
+       <a class="article-category-link" href="http://xinjiguaike.github.iotags/ios-simulator">ios simulator</a>
+       
+       
+   
+
+
+</span>
+
+<p> 提示错误： 命令行中编译项目成功，但是无法直接运行至模拟器，提示如下错误：
+No target specified for emulator. Deploying to undefined simulatorDevice type &quot;com.apple.CoreSimulator.SimDeviceType.undefined&quot; could not be found.[ERROR] An error occurred while running cordova run ios (exit code 1).  解决方案： 在项目根目录下运行如下命令
+cd platforms/ios/cordova &amp;&amp; npm install ios-sim@latest  </p>
 <hr>
 
     
@@ -112,10 +426,8 @@ Free for personal and commercial use under the CCA 3.0 license (html5up.net/lice
 		
 		
 		
-		<li><a href="https://xinjiguaike.github.io/#contact-form" class="icon fa-envelope-o"><span class="label">Email</span></a></li>
+		<li><a href="http://xinjiguaike.github.io#contact-form" class="icon fa-envelope-o"><span class="label">Email</span></a></li>
 		
-		
-		<li><a href="https://xinjiguaike.github.io/post/index.xml" class="icon fa-rss" type="application/rss+xml"><span class="label">RSS</span></a></li>
 		
 	</ul>
 
@@ -131,12 +443,12 @@ Free for personal and commercial use under the CCA 3.0 license (html5up.net/lice
 </footer>
 
 <!-- Scripts -->
-<script src="https://xinjiguaike.github.io/js/jquery.min.js"></script>
-<script src="https://xinjiguaike.github.io/js/jquery.poptrox.min.js"></script>
-<script src="https://xinjiguaike.github.io/js/skel.min.js"></script>
-<script src="https://xinjiguaike.github.io/js/util.js"></script>
+<script src="http://xinjiguaike.github.iojs/jquery.min.js"></script>
+<script src="http://xinjiguaike.github.iojs/jquery.poptrox.min.js"></script>
+<script src="http://xinjiguaike.github.iojs/skel.min.js"></script>
+<script src="http://xinjiguaike.github.iojs/util.js"></script>
 
-<script src="https://xinjiguaike.github.io/js/main.js"></script>
+<script src="http://xinjiguaike.github.iojs/main.js"></script>
 
 
 

@@ -1,0 +1,322 @@
+<!DOCTYPE HTML>
+
+<!-- 
+Strata by HTML5 UP
+html5up.net | @n33co
+Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Meteor部署问题汇总 &middot; Rudy&#39;s Zone</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<meta name="author" content="Rudy Xiong">
+		<meta name="description" content="Show the flashing">
+		<meta http-equiv="content-language" content="en-us" />
+
+		
+		<meta name="og:site_name" content="Rudy&#39;s Zone">
+		<meta name="og:title" content="Meteor部署问题汇总">
+		<meta name="og:url" content="http://xinjiguaike.github.io/post/100005/">
+		
+		<meta name="og:image" content="http://xinjiguaike.github.ioimages/avatar.jpg">
+		
+		
+
+		<meta name="generator" content="Hugo 0.27.1" />
+
+		<!--[if lte IE 8]><script src='http://xinjiguaike.github.iojs/ie/html5shiv.js'></script><![endif]-->
+		<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<link rel="stylesheet" href="http://xinjiguaike.github.iocss/main.css" />
+		<!--[if lte IE 8]><link rel="stylesheet" href="http://xinjiguaike.github.io/css/ie8.css"><![endif]-->
+
+		
+		
+	</head>
+
+	<body id="top">
+		<!-- Header -->
+<header id="header">
+	
+	<a href="http://xinjiguaike.github.io" class="image avatar"><img src="http://xinjiguaike.github.ioimages/avatar.jpg" alt="" /></a>
+	
+	
+		<h1><strong>I&rsquo;m Rudy</strong>, a coder, a designer<br> and an architect, worked for <br> <a href="//cisco.com">Cisco</a>, <a href="//codyy.com">Codyy</a>, <a href="//medku.com">Medku</a>.</h1>
+	
+
+	
+		<nav id="sidebar">
+			<ul>
+			
+				<li><a href="http://xinjiguaike.github.io/">Home</a></li>
+			
+				<li><a href="http://xinjiguaike.github.io/post/">Blog</a></li>
+			
+			</ul>
+		</nav>
+	
+</header>
+
+
+		<!-- Main -->
+		<div id="main">
+			
+	<span>
+		<h1>Meteor部署问题汇总</h1>
+
+		<i class="fa fa-calendar"></i>&nbsp;&nbsp;
+<time datetime="2018-07-13 16:30:49 &#43;0800 CST">2018-07-13</time>&nbsp;&nbsp;
+
+
+
+
+    
+    
+        <i class="fa fa-folder"></i>&nbsp;&nbsp;
+        
+        <a class="article-category-link" href="http://xinjiguaike.github.iocategories/%e7%8e%af%e5%a2%83%e9%83%a8%e7%bd%b2">环境部署</a>
+        
+        
+    
+
+
+
+   
+   
+       &nbsp;&nbsp;<i class="fa fa-tags"></i>&nbsp;&nbsp;
+       
+       <a class="article-category-link" href="http://xinjiguaike.github.iotags/meteor">Meteor</a>
+       &middot;
+       
+       <a class="article-category-link" href="http://xinjiguaike.github.iotags/node.js">node.js</a>
+       &middot;
+       
+       <a class="article-category-link" href="http://xinjiguaike.github.iotags/npm">npm</a>
+       &middot;
+       
+       <a class="article-category-link" href="http://xinjiguaike.github.iotags/mongo">mongo</a>
+       
+       
+   
+
+
+	</span>
+
+	<p>
+	    
+
+<h4 id="服务器环境部署meteor">服务器环境部署meteor</h4>
+
+<p>服务器包含： nodejs、git、mongodb</p>
+
+<ol>
+<li><p>安装meteor</p>
+
+<pre><code>$ curl https://install.meteor.com/ | sh
+</code></pre></li>
+
+<li><p>安装demeteorizer</p>
+
+<pre><code>$ npm install -g demeteorizer
+</code></pre></li>
+
+<li><p>安装pm2</p>
+
+<pre><code>$ npm install -g pm2
+</code></pre></li>
+
+<li><p>在仓库根目录键入</p>
+
+<pre><code>$ demeteorizer 
+</code></pre>
+
+<p>打包(构建nodejs可用)代码</p></li>
+
+<li><pre><code>$ cd .demeteorized/bundle/programs/server
+</code></pre></li>
+
+<li><pre><code>$ npm install
+</code></pre></li>
+
+<li><p>返回仓库根目录键入</p>
+
+<pre><code>$ MONGO_URL=mongodb://localhost:27017/test PORT=80 ROOT_URL=http://localhost:80 pm2 start main.js
+</code></pre></li>
+</ol>
+
+<hr />
+
+<h4 id="node-js-管理">Node.js 管理：</h4>
+
+<p>参考 <a href="https://www.kancloud.cn/summer/nodejs-install/71975">https://www.kancloud.cn/summer/nodejs-install/71975</a> 安装最新版本（包含了npm，无需单独安装）</p>
+
+<ol>
+<li><p>安装 nvm</p>
+
+<pre><code>$ curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.32.1/install.sh | bash
+</code></pre>
+
+<p>or Wget:</p>
+
+<pre><code>$ wget -qO- https://raw.githubusercontent.com/creationix/nvm/v0.32.1/install.sh | bash
+</code></pre></li>
+
+<li><p>使用nvm安装node</p>
+
+<pre><code>$ nvm install 4.6.1
+</code></pre></li>
+
+<li><p>设置默认node版本</p>
+
+<pre><code>$ nvm alias default v5.0.0
+</code></pre></li>
+</ol>
+
+<hr />
+
+<h4 id="对于小于1024的端口-需要sudo">对于小于1024的端口, 需要sudo</h4>
+
+<pre><code>$ meteor --port 80
+Error: listen EACCES
+</code></pre>
+
+<pre><code>$ sudo meteor --port 80
+</code></pre>
+
+<hr />
+
+<h4 id="mupx-setup-失败">mupx setup 失败</h4>
+
+<pre><code>$ mupx setup： sudo：no tty present and no askpass program specified
+</code></pre>
+
+<p>编辑 /etc/sudoers 增加行</p>
+
+<pre><code>Defaults visiblepw;
+</code></pre>
+
+<p>参考：<a href="http://blog.csdn.net/buptxx/article/details/8241997">http://blog.csdn.net/buptxx/article/details/8241997</a></p>
+
+<hr />
+
+<h4 id="apache-反向代理设置">Apache 反向代理设置：</h4>
+
+<pre><code>ProxyPass /groupchat http://www.pay4china.com:3000/groupchat max=20 ttl=120 retry=300
+ProxyPassReverse /groupchat http://www.pay4china:3000/groupchat
+</code></pre>
+
+<pre><code>ServerName localhost
+
+&lt;VirtualHost *:80&gt;
+ServerName www.pay4china2.com
+
+ProxyRequests Off
+
+&lt;Proxy *&gt;
+    Order deny,allow
+    Allow from all
+&lt;/Proxy&gt;
+
+ProxyPass /groupchat http://www.pay4china.com:3000/groupchat max=20 ttl=120 retry=300
+ProxyPassReverse /groupchat http://www.pay4china:3000/groupchat
+&lt;/VirtualHost&gt;
+</code></pre>
+
+<h4 id="反向代理配置-q-a">反向代理配置 Q&amp;A</h4>
+
+<p>Q:</p>
+
+<pre><code>AH00526: Syntax error on line 30 of /etc/apache2/sites-enabled/000-default.conf:
+Invalid command 'ProxyRequests', perhaps misspelled or defined by a module not included in the server configuration
+</code></pre>
+
+<p>A:</p>
+
+<pre><code>$ sudo a2enmod proxy
+$ sudo /etc/init.d/apache2 restart
+</code></pre>
+
+<p>Q:</p>
+
+<pre><code>No protocol handler was valid for the URL /groupchat. If you are using a DSO version of mod_proxy, 
+make sure the proxy submodules are included in the 	configuration using LoadModule.
+</code></pre>
+
+<p>A:</p>
+
+<pre><code>$ sudo a2enmod proxy_http
+</code></pre>
+
+	</p>
+
+	<div id="disqus_thread"></div>
+<script>
+    var disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "spf13" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+
+		</div>
+
+		<!-- Footer -->
+<footer id="footer">
+	<ul class="icons">
+		
+		
+		
+		<li><a href="//twitter.com/rudyxiong" target="_blank" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
+		
+		
+		<li><a href="//github.com/xinjiguaike" target="_blank" class="icon fa-github"><span class="label">GitHub</span></a></li>
+		
+		
+		
+		<li><a href="//linkedin.com/in/%e4%ba%9a%e5%b9%b3-%e7%86%8a-532631105" target="_blank" class="icon fa-linkedin-square"><span class="label">Linkedin</span></a></li>
+		
+		
+		
+		
+		<li><a href="http://xinjiguaike.github.io#contact-form" class="icon fa-envelope-o"><span class="label">Email</span></a></li>
+		
+		
+	</ul>
+
+	<ul class="copyright">
+		
+		<li>&copy; Rudy Xiong</li>
+		
+		<li>Design: <a href="//html5up.net">HTML5 UP</a></li>
+		
+		<li>Images: Rudy &amp; Juan</li>
+		
+	</ul>
+</footer>
+
+<!-- Scripts -->
+<script src="http://xinjiguaike.github.iojs/jquery.min.js"></script>
+<script src="http://xinjiguaike.github.iojs/jquery.poptrox.min.js"></script>
+<script src="http://xinjiguaike.github.iojs/skel.min.js"></script>
+<script src="http://xinjiguaike.github.iojs/util.js"></script>
+
+<script src="http://xinjiguaike.github.iojs/main.js"></script>
+
+
+
+
+
+	</body>
+</html>
