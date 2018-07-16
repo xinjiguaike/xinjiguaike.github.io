@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on Rudy&#39;s Zone</title>
-    <link>http://xinjiguaike.github.io/post/</link>
+    <link>https://xinjiguaike.github.io/post/</link>
     <description>Recent content in Posts on Rudy&#39;s Zone</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 13 Jul 2018 17:30:49 +0800</lastBuildDate>
     
-	<atom:link href="http://xinjiguaike.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://xinjiguaike.github.io/post/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Ubuntu设置静态IP</title>
-      <link>http://xinjiguaike.github.io/post/100007/</link>
+      <link>https://xinjiguaike.github.io/post/100007/</link>
       <pubDate>Fri, 13 Jul 2018 17:30:49 +0800</pubDate>
       
-      <guid>http://xinjiguaike.github.io/post/100007/</guid>
+      <guid>https://xinjiguaike.github.io/post/100007/</guid>
       <description> Ubuntu的网络参数保存在文件 /etc/network/interfaces中，默认设置使用dhcp，内容如下： # The primary network interface auto eth0 iface eth0 inet dhcp  设置静态ip的方法如下：  编辑 /etc/network/interfaces
 a. 将dhcp 一行屏蔽
 # The primary network interface auto eth0 #iface eth0 inet dhcp  b. 添加和静态ip有关的参数
@@ -27,19 +27,19 @@ $sudo ifdown eth0 $sudo ifup eth0   </description>
     
     <item>
       <title>基于keystoneJS的后台管理系统</title>
-      <link>http://xinjiguaike.github.io/post/100006/</link>
+      <link>https://xinjiguaike.github.io/post/100006/</link>
       <pubDate>Fri, 13 Jul 2018 17:30:49 +0800</pubDate>
       
-      <guid>http://xinjiguaike.github.io/post/100006/</guid>
+      <guid>https://xinjiguaike.github.io/post/100006/</guid>
       <description> 环境安装：  node 环境（node，npm, 建议nvm管理） pm2 安装（npm install -g pm2） nginx 安装 redis 安装 mongo 安装  项目部署：  下载代码（git clone） 创建config.js() npm install(/var/www/drtalent-web) 配置nginx反向代理 pm2 start bin/www  连接远程mongo服务器 mongo --host xxx -u adminUserName -p userPassword --authenticationDatabase admin  mongo 10.66.233.21:27017/admin -u mongouser -p Mengning123456  关于keystone主题颜色定制：  修改./node_modules/elemental/less/variables.less 中 @app-primary的值（修改主题颜色） 修改./node_modules/keystone/admin/client/theme.js 中 theme.color中的primary的值（修改控件主题颜色）（注意修改后删除已编译文件）  </description>
     </item>
     
     <item>
       <title>Meteor部署问题汇总</title>
-      <link>http://xinjiguaike.github.io/post/100005/</link>
+      <link>https://xinjiguaike.github.io/post/100005/</link>
       <pubDate>Fri, 13 Jul 2018 16:30:49 +0800</pubDate>
       
-      <guid>http://xinjiguaike.github.io/post/100005/</guid>
+      <guid>https://xinjiguaike.github.io/post/100005/</guid>
       <description>服务器环境部署meteor 服务器包含： nodejs、git、mongodb
  安装meteor
 $ curl https://install.meteor.com/ | sh  安装demeteorizer
@@ -55,10 +55,10 @@ $ wget -qO- https://raw.</description>
     
     <item>
       <title>Docker环境部署问题汇总</title>
-      <link>http://xinjiguaike.github.io/post/100004/</link>
+      <link>https://xinjiguaike.github.io/post/100004/</link>
       <pubDate>Fri, 13 Jul 2018 15:30:49 +0800</pubDate>
       
-      <guid>http://xinjiguaike.github.io/post/100004/</guid>
+      <guid>https://xinjiguaike.github.io/post/100004/</guid>
       <description>docker 相关命令：  docker ps: 查看当前运行的容器 docker ps -a : 查看所有的容器 docker start {容器id或name} 启动指定容器 docker stop {容器id或name} 停止指定容器 docker rm {容器id或name} 删除指定容器  具体docker相关使用指导参考： http://kb.cnblogs.com/page/536115/
 运行docker容器，出现如下错误： Cannot connect to the Docker daemon. Is the docker daemon running on this host?  解决方法参见下面链接： http://blog.csdn.net/hejjiiee/article/details/53509744
 Ubutntu安装完Docker后，执行 $ sudo service docker start  提示 Failed to start docker.service: Unit docker.service is masked.  解决方案： 执行如下三条指令
@@ -67,28 +67,28 @@ $ systemctl unmask docker.service $ systemctl unmask docker.</description>
     
     <item>
       <title>高性能架构师必备技能</title>
-      <link>http://xinjiguaike.github.io/post/100003/</link>
+      <link>https://xinjiguaike.github.io/post/100003/</link>
       <pubDate>Fri, 13 Jul 2018 14:30:49 +0800</pubDate>
       
-      <guid>http://xinjiguaike.github.io/post/100003/</guid>
+      <guid>https://xinjiguaike.github.io/post/100003/</guid>
       <description> Rock - 模块通信 链接：http://pan.baidu.com/s/1dFk1rrz 密码：qsk2 Lee - 高性能架构师必备技能-远程调用RPC从入门到精通 链接：http://pan.baidu.com/s/1bpbHZ91 密码：0a8j King - 高性能架构师必备技能 — 去中心化的网络架构解析 链接：http://pan.baidu.com/s/1pKBBewN 密码：ps85 Lee - 高性能架构师必备技能-无锁消息队列的实现 链接：http://pan.baidu.com/s/1boOk8Rd 密码：na9w King - 高性能架构师必备技能 — 定位系统架构解析与实现 链接：http://pan.baidu.com/s/1slA0XL7 密码：zzhh  </description>
     </item>
     
     <item>
       <title>pm2 服务开机自启动</title>
-      <link>http://xinjiguaike.github.io/post/100002/</link>
+      <link>https://xinjiguaike.github.io/post/100002/</link>
       <pubDate>Fri, 13 Jul 2018 12:30:49 +0800</pubDate>
       
-      <guid>http://xinjiguaike.github.io/post/100002/</guid>
+      <guid>https://xinjiguaike.github.io/post/100002/</guid>
       <description>pm2 start index.js —name app_name pm2 save pm2 startup(按照CLI提示复制相应命令并执行)  参考： https://pm2.io/doc/en/runtime/guide/startup-hook/#installation</description>
     </item>
     
     <item>
       <title>ionic 模拟器运行失败解决方案</title>
-      <link>http://xinjiguaike.github.io/post/100001/</link>
+      <link>https://xinjiguaike.github.io/post/100001/</link>
       <pubDate>Wed, 04 Jul 2018 13:50:46 +0200</pubDate>
       
-      <guid>http://xinjiguaike.github.io/post/100001/</guid>
+      <guid>https://xinjiguaike.github.io/post/100001/</guid>
       <description> 提示错误： 命令行中编译项目成功，但是无法直接运行至模拟器，提示如下错误：
 No target specified for emulator. Deploying to undefined simulatorDevice type &amp;quot;com.apple.CoreSimulator.SimDeviceType.undefined&amp;quot; could not be found.[ERROR] An error occurred while running cordova run ios (exit code 1).  解决方案： 在项目根目录下运行如下命令
 cd platforms/ios/cordova &amp;amp;&amp;amp; npm install ios-sim@latest  </description>

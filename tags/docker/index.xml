@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Docker on Rudy&#39;s Zone</title>
-    <link>http://xinjiguaike.github.io/tags/docker/</link>
+    <link>https://xinjiguaike.github.io/tags/docker/</link>
     <description>Recent content in Docker on Rudy&#39;s Zone</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 13 Jul 2018 15:30:49 +0800</lastBuildDate>
     
-	<atom:link href="http://xinjiguaike.github.io/tags/docker/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://xinjiguaike.github.io/tags/docker/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Docker环境部署问题汇总</title>
-      <link>http://xinjiguaike.github.io/post/100004/</link>
+      <link>https://xinjiguaike.github.io/post/100004/</link>
       <pubDate>Fri, 13 Jul 2018 15:30:49 +0800</pubDate>
       
-      <guid>http://xinjiguaike.github.io/post/100004/</guid>
+      <guid>https://xinjiguaike.github.io/post/100004/</guid>
       <description>docker 相关命令：  docker ps: 查看当前运行的容器 docker ps -a : 查看所有的容器 docker start {容器id或name} 启动指定容器 docker stop {容器id或name} 停止指定容器 docker rm {容器id或name} 删除指定容器  具体docker相关使用指导参考： http://kb.cnblogs.com/page/536115/
 运行docker容器，出现如下错误： Cannot connect to the Docker daemon. Is the docker daemon running on this host?  解决方法参见下面链接： http://blog.csdn.net/hejjiiee/article/details/53509744
 Ubutntu安装完Docker后，执行 $ sudo service docker start  提示 Failed to start docker.service: Unit docker.service is masked.  解决方案： 执行如下三条指令

@@ -2,56 +2,56 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on Rudy&#39;s Zone</title>
-    <link>http://xinjiguaike.github.io/categories/</link>
+    <link>https://xinjiguaike.github.io/categories/</link>
     <description>Recent content in Categories on Rudy&#39;s Zone</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     
-	<atom:link href="http://xinjiguaike.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://xinjiguaike.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>后端开发</title>
-      <link>http://xinjiguaike.github.io/categories/%E5%90%8E%E7%AB%AF%E5%BC%80%E5%8F%91/</link>
+      <link>https://xinjiguaike.github.io/categories/%E5%90%8E%E7%AB%AF%E5%BC%80%E5%8F%91/</link>
       <pubDate>Fri, 13 Jul 2018 12:30:49 +0800</pubDate>
       
-      <guid>http://xinjiguaike.github.io/categories/%E5%90%8E%E7%AB%AF%E5%BC%80%E5%8F%91/</guid>
+      <guid>https://xinjiguaike.github.io/categories/%E5%90%8E%E7%AB%AF%E5%BC%80%E5%8F%91/</guid>
       <description></description>
     </item>
     
     <item>
       <title>操作系统</title>
-      <link>http://xinjiguaike.github.io/categories/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/</link>
+      <link>https://xinjiguaike.github.io/categories/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/</link>
       <pubDate>Fri, 13 Jul 2018 17:30:49 +0800</pubDate>
       
-      <guid>http://xinjiguaike.github.io/categories/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/</guid>
+      <guid>https://xinjiguaike.github.io/categories/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/</guid>
       <description></description>
     </item>
     
     <item>
       <title>环境部署</title>
-      <link>http://xinjiguaike.github.io/categories/%E7%8E%AF%E5%A2%83%E9%83%A8%E7%BD%B2/</link>
+      <link>https://xinjiguaike.github.io/categories/%E7%8E%AF%E5%A2%83%E9%83%A8%E7%BD%B2/</link>
       <pubDate>Fri, 13 Jul 2018 17:30:49 +0800</pubDate>
       
-      <guid>http://xinjiguaike.github.io/categories/%E7%8E%AF%E5%A2%83%E9%83%A8%E7%BD%B2/</guid>
+      <guid>https://xinjiguaike.github.io/categories/%E7%8E%AF%E5%A2%83%E9%83%A8%E7%BD%B2/</guid>
       <description></description>
     </item>
     
     <item>
       <title>移动开发</title>
-      <link>http://xinjiguaike.github.io/categories/%E7%A7%BB%E5%8A%A8%E5%BC%80%E5%8F%91/</link>
+      <link>https://xinjiguaike.github.io/categories/%E7%A7%BB%E5%8A%A8%E5%BC%80%E5%8F%91/</link>
       <pubDate>Wed, 04 Jul 2018 13:50:46 +0200</pubDate>
       
-      <guid>http://xinjiguaike.github.io/categories/%E7%A7%BB%E5%8A%A8%E5%BC%80%E5%8F%91/</guid>
+      <guid>https://xinjiguaike.github.io/categories/%E7%A7%BB%E5%8A%A8%E5%BC%80%E5%8F%91/</guid>
       <description></description>
     </item>
     
     <item>
       <title>视频资源</title>
-      <link>http://xinjiguaike.github.io/categories/%E8%A7%86%E9%A2%91%E8%B5%84%E6%BA%90/</link>
+      <link>https://xinjiguaike.github.io/categories/%E8%A7%86%E9%A2%91%E8%B5%84%E6%BA%90/</link>
       <pubDate>Fri, 13 Jul 2018 14:30:49 +0800</pubDate>
       
-      <guid>http://xinjiguaike.github.io/categories/%E8%A7%86%E9%A2%91%E8%B5%84%E6%BA%90/</guid>
+      <guid>https://xinjiguaike.github.io/categories/%E8%A7%86%E9%A2%91%E8%B5%84%E6%BA%90/</guid>
       <description></description>
     </item>
     

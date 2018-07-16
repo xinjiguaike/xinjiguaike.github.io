@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>系统架构 on Rudy&#39;s Zone</title>
-    <link>http://xinjiguaike.github.io/tags/%E7%B3%BB%E7%BB%9F%E6%9E%B6%E6%9E%84/</link>
+    <link>https://xinjiguaike.github.io/tags/%E7%B3%BB%E7%BB%9F%E6%9E%B6%E6%9E%84/</link>
     <description>Recent content in 系统架构 on Rudy&#39;s Zone</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 13 Jul 2018 14:30:49 +0800</lastBuildDate>
     
-	<atom:link href="http://xinjiguaike.github.io/tags/%E7%B3%BB%E7%BB%9F%E6%9E%B6%E6%9E%84/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://xinjiguaike.github.io/tags/%E7%B3%BB%E7%BB%9F%E6%9E%B6%E6%9E%84/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>高性能架构师必备技能</title>
-      <link>http://xinjiguaike.github.io/post/100003/</link>
+      <link>https://xinjiguaike.github.io/post/100003/</link>
       <pubDate>Fri, 13 Jul 2018 14:30:49 +0800</pubDate>
       
-      <guid>http://xinjiguaike.github.io/post/100003/</guid>
+      <guid>https://xinjiguaike.github.io/post/100003/</guid>
       <description> Rock - 模块通信 链接：http://pan.baidu.com/s/1dFk1rrz 密码：qsk2 Lee - 高性能架构师必备技能-远程调用RPC从入门到精通 链接：http://pan.baidu.com/s/1bpbHZ91 密码：0a8j King - 高性能架构师必备技能 — 去中心化的网络架构解析 链接：http://pan.baidu.com/s/1pKBBewN 密码：ps85 Lee - 高性能架构师必备技能-无锁消息队列的实现 链接：http://pan.baidu.com/s/1boOk8Rd 密码：na9w King - 高性能架构师必备技能 — 定位系统架构解析与实现 链接：http://pan.baidu.com/s/1slA0XL7 密码：zzhh  </description>
     </item>
     
