@@ -98,7 +98,7 @@
 <body>
   <div id="mobile-navbar" class="mobile-navbar">
   <div class="mobile-header-logo">
-    <a href="/" class="logo">RudyX</a>
+    <a href="/" class="logo">Rudy</a>
   </div>
   <div class="mobile-navbar-icon">
     <span></span>
@@ -124,7 +124,7 @@
   <div class="container" id="mobile-panel">
     <header id="header" class="header">
         <div class="logo-wrapper">
-  <a href="/" class="logo">RudyX</a>
+  <a href="/" class="logo">Rudy</a>
 </div>
 
 <nav class="site-navbar">
@@ -176,15 +176,12 @@
 <ul>
 <li>
 <ul>
-<li>
-<ul>
 <li><a href="#服务器环境部署meteor">服务器环境部署meteor</a></li>
 <li><a href="#node-js-管理">Node.js 管理：</a></li>
 <li><a href="#对于小于1024的端口-需要sudo">对于小于1024的端口, 需要sudo</a></li>
 <li><a href="#mupx-setup-失败">mupx setup 失败</a></li>
 <li><a href="#apache-反向代理设置">Apache 反向代理设置：</a></li>
 <li><a href="#反向代理配置-q-a">反向代理配置 Q&amp;A</a></li>
-</ul></li>
 </ul></li>
 </ul></li>
 </ul>
@@ -199,7 +196,7 @@
     <div class="post-content">
       
 
-<h4 id="服务器环境部署meteor">服务器环境部署meteor</h4>
+<h3 id="服务器环境部署meteor">服务器环境部署meteor</h3>
 
 <p>服务器包含： nodejs、git、mongodb</p>
 
@@ -240,7 +237,7 @@
 
 <hr />
 
-<h4 id="node-js-管理">Node.js 管理：</h4>
+<h3 id="node-js-管理">Node.js 管理：</h3>
 
 <p>参考 <a href="https://www.kancloud.cn/summer/nodejs-install/71975">https://www.kancloud.cn/summer/nodejs-install/71975</a> 安装最新版本（包含了npm，无需单独安装）</p>
 
@@ -268,7 +265,7 @@
 
 <hr />
 
-<h4 id="对于小于1024的端口-需要sudo">对于小于1024的端口, 需要sudo</h4>
+<h3 id="对于小于1024的端口-需要sudo">对于小于1024的端口, 需要sudo</h3>
 
 <pre><code class="language-shell">$ meteor --port 80
 Error: listen EACCES
@@ -279,7 +276,7 @@ Error: listen EACCES
 
 <hr />
 
-<h4 id="mupx-setup-失败">mupx setup 失败</h4>
+<h3 id="mupx-setup-失败">mupx setup 失败</h3>
 
 <pre><code class="language-shell">$ mupx setup： sudo：no tty present and no askpass program specified
 </code></pre>
@@ -293,7 +290,7 @@ Error: listen EACCES
 
 <hr />
 
-<h4 id="apache-反向代理设置">Apache 反向代理设置：</h4>
+<h3 id="apache-反向代理设置">Apache 反向代理设置：</h3>
 
 <pre><code class="language-shell">ProxyPass /groupchat http://www.pay4china.com:3000/groupchat max=20 ttl=120 retry=300
 ProxyPassReverse /groupchat http://www.pay4china:3000/groupchat
@@ -316,7 +313,7 @@ ProxyPassReverse /groupchat http://www.pay4china:3000/groupchat
 &lt;/VirtualHost&gt;
 </code></pre>
 
-<h4 id="反向代理配置-q-a">反向代理配置 Q&amp;A</h4>
+<h3 id="反向代理配置-q-a">反向代理配置 Q&amp;A</h3>
 
 <p>Q:</p>
 

@@ -98,7 +98,7 @@
 <body>
   <div id="mobile-navbar" class="mobile-navbar">
   <div class="mobile-header-logo">
-    <a href="/" class="logo">RudyX</a>
+    <a href="/" class="logo">Rudy</a>
   </div>
   <div class="mobile-navbar-icon">
     <span></span>
@@ -124,7 +124,7 @@
   <div class="container" id="mobile-panel">
     <header id="header" class="header">
         <div class="logo-wrapper">
-  <a href="/" class="logo">RudyX</a>
+  <a href="/" class="logo">Rudy</a>
 </div>
 
 <nav class="site-navbar">
@@ -176,8 +176,6 @@
 <ul>
 <li>
 <ul>
-<li>
-<ul>
 <li><a href="#docker-相关命令">docker 相关命令：</a></li>
 <li><a href="#运行docker容器-出现如下错误">运行docker容器，出现如下错误：</a></li>
 <li><a href="#解决方法参见下面链接">解决方法参见下面链接：</a></li>
@@ -192,7 +190,6 @@
 <li><a href="#ssh-密钥-无法用root用户登录">ssh 密钥 无法用root用户登录：</a></li>
 </ul></li>
 </ul></li>
-</ul></li>
 </ul>
 </nav>
   </div>
@@ -205,7 +202,7 @@
     <div class="post-content">
       
 
-<h4 id="docker-相关命令">docker 相关命令：</h4>
+<h3 id="docker-相关命令">docker 相关命令：</h3>
 
 <ul>
 <li>docker ps:  查看当前运行的容器</li>
@@ -220,28 +217,28 @@
 
 <hr />
 
-<h4 id="运行docker容器-出现如下错误">运行docker容器，出现如下错误：</h4>
+<h3 id="运行docker容器-出现如下错误">运行docker容器，出现如下错误：</h3>
 
 <pre><code class="language-shell">Cannot connect to the Docker daemon. Is the docker daemon running on this host?
 </code></pre>
 
-<h4 id="解决方法参见下面链接">解决方法参见下面链接：</h4>
+<h3 id="解决方法参见下面链接">解决方法参见下面链接：</h3>
 
 <p><a href="http://blog.csdn.net/hejjiiee/article/details/53509744">http://blog.csdn.net/hejjiiee/article/details/53509744</a></p>
 
 <hr />
 
-<h4 id="ubutntu安装完docker后-执行">Ubutntu安装完Docker后，执行</h4>
+<h3 id="ubutntu安装完docker后-执行">Ubutntu安装完Docker后，执行</h3>
 
 <pre><code class="language-shell">$ sudo service docker start
 </code></pre>
 
-<h4 id="提示">提示</h4>
+<h3 id="提示">提示</h3>
 
 <pre><code class="language-shell">Failed to start docker.service: Unit docker.service is masked.
 </code></pre>
 
-<h4 id="解决方案">解决方案：</h4>
+<h3 id="解决方案">解决方案：</h3>
 
 <p>执行如下三条指令</p>
 
@@ -265,7 +262,7 @@ bash: line 4: docker: command not found
 
 <hr />
 
-<h4 id="普通用户不能执行docker命令">普通用户不能执行docker命令：</h4>
+<h3 id="普通用户不能执行docker命令">普通用户不能执行docker命令：</h3>
 
 <p>修改 /etc/group</p>
 
@@ -274,7 +271,7 @@ bash: line 4: docker: command not found
 
 <hr />
 
-<h4 id="centos-6-5-安装docker-问题">Centos 6.5 安装docker 问题：</h4>
+<h3 id="centos-6-5-安装docker-问题">Centos 6.5 安装docker 问题：</h3>
 
 <ol>
 <li>安装教程参考： <a href="http://h2appy.blog.51cto.com/609721/1670017">http://h2appy.blog.51cto.com/609721/1670017</a></li>
@@ -293,7 +290,7 @@ bash: line 4: docker: command not found
 
 <hr />
 
-<h4 id="docker-容器快照部署步骤">docker 容器快照部署步骤：</h4>
+<h3 id="docker-容器快照部署步骤">docker 容器快照部署步骤：</h3>
 
 <ol>
 <li>将容器快照拷贝到本地</li>
@@ -314,7 +311,7 @@ bash: line 4: docker: command not found
 
 <hr />
 
-<h4 id="关于docker-容器ssh连上就断开的问题">关于docker 容器ssh连上就断开的问题：</h4>
+<h3 id="关于docker-容器ssh连上就断开的问题">关于docker 容器ssh连上就断开的问题：</h3>
 
 <p>Try to change</p>
 
@@ -330,7 +327,7 @@ bash: line 4: docker: command not found
 
 <p>docker 容器目录结构：<a href="http://blog.csdn.net/wanglei_storage/article/details/50299491">http://blog.csdn.net/wanglei_storage/article/details/50299491</a></p>
 
-<h4 id="解决ssh登录后闲置时间过长而断开连接">解决ssh登录后闲置时间过长而断开连接：</h4>
+<h3 id="解决ssh登录后闲置时间过长而断开连接">解决ssh登录后闲置时间过长而断开连接：</h3>
 
 <p>修改/etc/ssh/sshd_config配置文件，找到ClientAliveCountMax（单位为分钟）修改你想要的值，
 执行</p>
@@ -338,7 +335,7 @@ bash: line 4: docker: command not found
 <pre><code class="language-shell">$ service sshd reload 
 </code></pre>
 
-<h4 id="ssh-密钥-无法用root用户登录">ssh 密钥 无法用root用户登录：</h4>
+<h3 id="ssh-密钥-无法用root用户登录">ssh 密钥 无法用root用户登录：</h3>
 
 <p>将home/ubuntu/.ssh/authorized_keys 拷贝到 /root/.ssh 下</p>
 
