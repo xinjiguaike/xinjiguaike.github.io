@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Plugin on Rudy Blog</title>
+    <link>https://xinjiguaike.github.com/tags/plugin/</link>
+    <description>Recent content in Plugin on Rudy Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Wed, 18 Jul 2018 13:15:29 +0800</lastBuildDate>
+    
+	<atom:link href="https://xinjiguaike.github.com/tags/plugin/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>oh-my-zsh: git Plugin</title>
+      <link>https://xinjiguaike.github.com/post/100008/</link>
+      <pubDate>Wed, 18 Jul 2018 13:15:29 +0800</pubDate>
+      
+      <guid>https://xinjiguaike.github.com/post/100008/</guid>
+      <description>The git Plugin The git plugin provides many aliases and a few useful functions.
+Enable it by adding git to the plugins array before sourcing OMZ (see [[Plugins]]).
+Aliases    Alias Command     g git   ga git add   gaa git add &amp;ndash;all   gapa git add &amp;ndash;patch   gau git add &amp;ndash;update   gb git branch   gba git branch -a   gbda git branch &amp;ndash;merged | command grep -vE &amp;ldquo;^(*|\smaster\s$)&amp;rdquo; | command xargs -n 1 git branch -d   gbl git blame -b -w   gbnm git branch &amp;ndash;no-merged   gbr git branch &amp;ndash;remote   gbs git bisect   gbsb git bisect bad   gbsg git bisect good   gbsr git bisect reset   gbss git bisect start   gc git commit -v   gc!</description>
+    </item>
+    
+  </channel>
+</rss>

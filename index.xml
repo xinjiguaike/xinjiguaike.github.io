@@ -17,9 +17,18 @@
       <pubDate>Sun, 20 Aug 2017 21:38:52 +0800</pubDate>
       
       <guid>https://xinjiguaike.github.com/about/</guid>
-      <description>Hugo is a static site engine written in Go.
-It makes use of a variety of open source projects including:
- Cobra Viper J Walter Weatherman Cast  Learn more and contribute on GitHub.</description>
+      <description>有学而无问，虽读书万卷，只是一条钝汉尔 这里记录的是作者平时工作中遇到的一些技术问题以及相应的解决方案，如果暂时没有找到解决方案，也会在这里M</description>
+    </item>
+    
+    <item>
+      <title>oh-my-zsh: git Plugin</title>
+      <link>https://xinjiguaike.github.com/post/100008/</link>
+      <pubDate>Wed, 18 Jul 2018 13:15:29 +0800</pubDate>
+      
+      <guid>https://xinjiguaike.github.com/post/100008/</guid>
+      <description>The git Plugin The git plugin provides many aliases and a few useful functions.
+Enable it by adding git to the plugins array before sourcing OMZ (see [[Plugins]]).
+Aliases    Alias Command     g git   ga git add   gaa git add &amp;ndash;all   gapa git add &amp;ndash;patch   gau git add &amp;ndash;update   gb git branch   gba git branch -a   gbda git branch &amp;ndash;merged | command grep -vE &amp;ldquo;^(*|\smaster\s$)&amp;rdquo; | command xargs -n 1 git branch -d   gbl git blame -b -w   gbnm git branch &amp;ndash;no-merged   gbr git branch &amp;ndash;remote   gbs git bisect   gbsb git bisect bad   gbsg git bisect good   gbsr git bisect reset   gbss git bisect start   gc git commit -v   gc!</description>
     </item>
     
     <item>

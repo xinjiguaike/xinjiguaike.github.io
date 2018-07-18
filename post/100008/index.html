@@ -1,0 +1,1108 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <title>oh-my-zsh: git Plugin - Rudy Blog</title>
+  <meta name="renderer" content="webkit" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+
+<meta http-equiv="Cache-Control" content="no-transform" />
+<meta http-equiv="Cache-Control" content="no-siteapp" />
+
+<meta name="theme-color" content="#f8f5ec" />
+<meta name="msapplication-navbutton-color" content="#f8f5ec">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="#f8f5ec">
+
+
+<meta name="author" content="Rudy Xiong" />
+  <meta name="description" content="The git Plugin The git plugin provides many aliases and a few useful functions.
+Enable it by adding git to the plugins array before sourcing OMZ (see [[Plugins]]).
+Aliases    Alias Command     g git   ga git add   gaa git add &amp;ndash;all   gapa git add &amp;ndash;patch   gau git add &amp;ndash;update   gb git branch   gba git branch -a   gbda git branch &amp;ndash;merged | command grep -vE &amp;ldquo;^(*|\smaster\s$)&amp;rdquo; | command xargs -n 1 git branch -d   gbl git blame -b -w   gbnm git branch &amp;ndash;no-merged   gbr git branch &amp;ndash;remote   gbs git bisect   gbsb git bisect bad   gbsg git bisect good   gbsr git bisect reset   gbss git bisect start   gc git commit -v   gc!" />
+
+  <meta name="keywords" content="Hugo, theme, even" />
+
+
+
+
+
+
+<meta name="generator" content="Hugo 0.44" />
+
+
+<link rel="canonical" href="https://xinjiguaike.github.com/post/100008/" />
+
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="manifest" href="/manifest.json">
+<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+
+
+
+
+
+
+
+<link href="/dist/even.min.css?v=3.2.0" rel="stylesheet">
+<link href="/lib/fancybox/jquery.fancybox-3.1.20.min.css" rel="stylesheet">
+
+
+
+
+<meta property="og:title" content="oh-my-zsh: git Plugin" />
+<meta property="og:description" content="The git Plugin The git plugin provides many aliases and a few useful functions.
+Enable it by adding git to the plugins array before sourcing OMZ (see [[Plugins]]).
+Aliases    Alias Command     g git   ga git add   gaa git add &ndash;all   gapa git add &ndash;patch   gau git add &ndash;update   gb git branch   gba git branch -a   gbda git branch &ndash;merged | command grep -vE &ldquo;^(*|\smaster\s$)&rdquo; | command xargs -n 1 git branch -d   gbl git blame -b -w   gbnm git branch &ndash;no-merged   gbr git branch &ndash;remote   gbs git bisect   gbsb git bisect bad   gbsg git bisect good   gbsr git bisect reset   gbss git bisect start   gc git commit -v   gc!" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://xinjiguaike.github.com/post/100008/" />
+
+
+
+<meta property="article:published_time" content="2018-07-18T13:15:29&#43;08:00"/>
+
+<meta property="article:modified_time" content="2018-07-18T13:15:29&#43;08:00"/>
+
+
+
+
+
+
+
+
+
+
+
+<meta itemprop="name" content="oh-my-zsh: git Plugin">
+<meta itemprop="description" content="The git Plugin The git plugin provides many aliases and a few useful functions.
+Enable it by adding git to the plugins array before sourcing OMZ (see [[Plugins]]).
+Aliases    Alias Command     g git   ga git add   gaa git add &ndash;all   gapa git add &ndash;patch   gau git add &ndash;update   gb git branch   gba git branch -a   gbda git branch &ndash;merged | command grep -vE &ldquo;^(*|\smaster\s$)&rdquo; | command xargs -n 1 git branch -d   gbl git blame -b -w   gbnm git branch &ndash;no-merged   gbr git branch &ndash;remote   gbs git bisect   gbsb git bisect bad   gbsg git bisect good   gbsr git bisect reset   gbss git bisect start   gc git commit -v   gc!">
+
+
+<meta itemprop="datePublished" content="2018-07-18T13:15:29&#43;08:00" />
+<meta itemprop="dateModified" content="2018-07-18T13:15:29&#43;08:00" />
+<meta itemprop="wordCount" content="874">
+
+
+
+<meta itemprop="keywords" content="oh-my-zsh,git,plugin," />
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="oh-my-zsh: git Plugin"/>
+<meta name="twitter:description" content="The git Plugin The git plugin provides many aliases and a few useful functions.
+Enable it by adding git to the plugins array before sourcing OMZ (see [[Plugins]]).
+Aliases    Alias Command     g git   ga git add   gaa git add &ndash;all   gapa git add &ndash;patch   gau git add &ndash;update   gb git branch   gba git branch -a   gbda git branch &ndash;merged | command grep -vE &ldquo;^(*|\smaster\s$)&rdquo; | command xargs -n 1 git branch -d   gbl git blame -b -w   gbnm git branch &ndash;no-merged   gbr git branch &ndash;remote   gbs git bisect   gbsb git bisect bad   gbsg git bisect good   gbsr git bisect reset   gbss git bisect start   gc git commit -v   gc!"/>
+
+<!--[if lte IE 9]>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/classlist/1.1.20170427/classList.min.js"></script>
+<![endif]-->
+
+<!--[if lt IE 9]>
+  <script src="https://cdn.jsdelivr.net/npm/html5shiv@3.7.3/dist/html5shiv.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/respond.js@1.4.2/dest/respond.min.js"></script>
+<![endif]-->
+
+</head>
+<body>
+  <div id="mobile-navbar" class="mobile-navbar">
+  <div class="mobile-header-logo">
+    <a href="/" class="logo">RudyX</a>
+  </div>
+  <div class="mobile-navbar-icon">
+    <span></span>
+    <span></span>
+    <span></span>
+  </div>
+</div>
+<nav id="mobile-menu" class="mobile-menu slideout-menu">
+  <ul class="mobile-menu-list">
+    <a href="/">
+        <li class="mobile-menu-item">首页</li>
+      </a><a href="/post/">
+        <li class="mobile-menu-item">归档</li>
+      </a><a href="/tags/">
+        <li class="mobile-menu-item">标签</li>
+      </a><a href="/categories/">
+        <li class="mobile-menu-item">分类</li>
+      </a><a href="/about/">
+        <li class="mobile-menu-item">关于</li>
+      </a>
+  </ul>
+</nav>
+  <div class="container" id="mobile-panel">
+    <header id="header" class="header">
+        <div class="logo-wrapper">
+  <a href="/" class="logo">RudyX</a>
+</div>
+
+<nav class="site-navbar">
+  <ul id="menu" class="menu">
+    <li class="menu-item">
+        <a class="menu-item-link" href="/">首页</a>
+      </li><li class="menu-item">
+        <a class="menu-item-link" href="/post/">归档</a>
+      </li><li class="menu-item">
+        <a class="menu-item-link" href="/tags/">标签</a>
+      </li><li class="menu-item">
+        <a class="menu-item-link" href="/categories/">分类</a>
+      </li><li class="menu-item">
+        <a class="menu-item-link" href="/about/">关于</a>
+      </li>
+  </ul>
+</nav>
+    </header>
+
+    <main id="main" class="main">
+      <div class="content-wrapper">
+        <div id="content" class="content">
+          <article class="post">
+    
+    <header class="post-header">
+      <h1 class="post-title">oh-my-zsh: git Plugin</h1>
+
+      <div class="post-meta">
+        <span class="post-time"> 2018-07-18 </span>
+        <div class="post-category">
+            
+              <a href="/categories/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/"> 开发工具 </a>
+            
+          </div>
+        
+        
+      </div>
+    </header>
+
+    
+    
+<div class="post-toc" id="post-toc">
+  <h2 class="post-toc-title">文章目录</h2>
+  
+  <div class="post-toc-content always-active">
+    <nav id="TableOfContents">
+<ul>
+<li>
+<ul>
+<li><a href="#the-git-plugin">The git Plugin</a></li>
+<li><a href="#aliases">Aliases</a></li>
+<li><a href="#deprecated-aliases">Deprecated Aliases</a></li>
+<li><a href="#functions">Functions</a>
+<ul>
+<li><a href="#current">Current</a></li>
+<li><a href="#wip">WiP</a></li>
+</ul></li>
+</ul></li>
+</ul>
+</nav>
+  </div>
+</div>
+
+    
+    
+
+    
+    <div class="post-content">
+      
+
+<h2 id="the-git-plugin">The git Plugin</h2>
+
+<p>The <a href="https://github.com/robbyrussell/oh-my-zsh/tree/master/plugins/git">git</a> plugin provides many <a href="#aliases">aliases</a> and a few useful <a href="#functions">functions</a>.</p>
+
+<p>Enable it by adding <em>git</em> to the <a href="https://github.com/robbyrussell/oh-my-zsh/blob/master/templates/zshrc.zsh-template#L61"><em>plugins array</em></a> before sourcing OMZ (see [[Plugins]]).</p>
+
+<h2 id="aliases">Aliases</h2>
+
+<table>
+<thead>
+<tr>
+<th align="left">Alias</th>
+<th align="left">Command</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td align="left">g</td>
+<td align="left">git</td>
+</tr>
+
+<tr>
+<td align="left">ga</td>
+<td align="left">git add</td>
+</tr>
+
+<tr>
+<td align="left">gaa</td>
+<td align="left">git add &ndash;all</td>
+</tr>
+
+<tr>
+<td align="left">gapa</td>
+<td align="left">git add &ndash;patch</td>
+</tr>
+
+<tr>
+<td align="left">gau</td>
+<td align="left">git add &ndash;update</td>
+</tr>
+
+<tr>
+<td align="left">gb</td>
+<td align="left">git branch</td>
+</tr>
+
+<tr>
+<td align="left">gba</td>
+<td align="left">git branch -a</td>
+</tr>
+
+<tr>
+<td align="left">gbda</td>
+<td align="left">git branch &ndash;merged | command grep -vE &ldquo;^(*|\s<em>master\s</em>$)&rdquo; | command xargs -n 1 git branch -d</td>
+</tr>
+
+<tr>
+<td align="left">gbl</td>
+<td align="left">git blame -b -w</td>
+</tr>
+
+<tr>
+<td align="left">gbnm</td>
+<td align="left">git branch &ndash;no-merged</td>
+</tr>
+
+<tr>
+<td align="left">gbr</td>
+<td align="left">git branch &ndash;remote</td>
+</tr>
+
+<tr>
+<td align="left">gbs</td>
+<td align="left">git bisect</td>
+</tr>
+
+<tr>
+<td align="left">gbsb</td>
+<td align="left">git bisect bad</td>
+</tr>
+
+<tr>
+<td align="left">gbsg</td>
+<td align="left">git bisect good</td>
+</tr>
+
+<tr>
+<td align="left">gbsr</td>
+<td align="left">git bisect reset</td>
+</tr>
+
+<tr>
+<td align="left">gbss</td>
+<td align="left">git bisect start</td>
+</tr>
+
+<tr>
+<td align="left">gc</td>
+<td align="left">git commit -v</td>
+</tr>
+
+<tr>
+<td align="left">gc!</td>
+<td align="left">git commit -v &ndash;amend</td>
+</tr>
+
+<tr>
+<td align="left">gca</td>
+<td align="left">git commit -v -a</td>
+</tr>
+
+<tr>
+<td align="left">gcam</td>
+<td align="left">git commit -a -m</td>
+</tr>
+
+<tr>
+<td align="left">gca!</td>
+<td align="left">git commit -v -a &ndash;amend</td>
+</tr>
+
+<tr>
+<td align="left">gcan!</td>
+<td align="left">git commit -v -a -s &ndash;no-edit &ndash;amend</td>
+</tr>
+
+<tr>
+<td align="left">gcb</td>
+<td align="left">git checkout -b</td>
+</tr>
+
+<tr>
+<td align="left">gcf</td>
+<td align="left">git config &ndash;list</td>
+</tr>
+
+<tr>
+<td align="left">gcl</td>
+<td align="left">git clone &ndash;recursive</td>
+</tr>
+
+<tr>
+<td align="left">gclean</td>
+<td align="left">git clean -df</td>
+</tr>
+
+<tr>
+<td align="left">gcm</td>
+<td align="left">git checkout master</td>
+</tr>
+
+<tr>
+<td align="left">gcd</td>
+<td align="left">git checkout develop</td>
+</tr>
+
+<tr>
+<td align="left">gcmsg</td>
+<td align="left">git commit -m</td>
+</tr>
+
+<tr>
+<td align="left">gco</td>
+<td align="left">git checkout</td>
+</tr>
+
+<tr>
+<td align="left">gcount</td>
+<td align="left">git shortlog -sn</td>
+</tr>
+
+<tr>
+<td align="left">gcp</td>
+<td align="left">git cherry-pick</td>
+</tr>
+
+<tr>
+<td align="left">gcpa</td>
+<td align="left">git cherry-pick &ndash;abort</td>
+</tr>
+
+<tr>
+<td align="left">gcpc</td>
+<td align="left">git cherry-pick &ndash;continue</td>
+</tr>
+
+<tr>
+<td align="left">gcs</td>
+<td align="left">git commit -S</td>
+</tr>
+
+<tr>
+<td align="left">gd</td>
+<td align="left">git diff</td>
+</tr>
+
+<tr>
+<td align="left">gdca</td>
+<td align="left">git diff &ndash;cached</td>
+</tr>
+
+<tr>
+<td align="left">gdt</td>
+<td align="left">git diff-tree &ndash;no-commit-id &ndash;name-only -r</td>
+</tr>
+
+<tr>
+<td align="left">gdw</td>
+<td align="left">git diff &ndash;word-diff</td>
+</tr>
+
+<tr>
+<td align="left">gf</td>
+<td align="left">git fetch</td>
+</tr>
+
+<tr>
+<td align="left">gfa</td>
+<td align="left">git fetch &ndash;all &ndash;prune</td>
+</tr>
+
+<tr>
+<td align="left">gfo</td>
+<td align="left">git fetch origin</td>
+</tr>
+
+<tr>
+<td align="left">gg</td>
+<td align="left">git gui citool</td>
+</tr>
+
+<tr>
+<td align="left">gga</td>
+<td align="left">git gui citool &ndash;amend</td>
+</tr>
+
+<tr>
+<td align="left">ggf</td>
+<td align="left">git push &ndash;force origin $(current_branch)</td>
+</tr>
+
+<tr>
+<td align="left">ghh</td>
+<td align="left">git help</td>
+</tr>
+
+<tr>
+<td align="left">ggpull</td>
+<td align="left">ggl</td>
+</tr>
+
+<tr>
+<td align="left">ggpur</td>
+<td align="left">ggu</td>
+</tr>
+
+<tr>
+<td align="left">ggpush</td>
+<td align="left">ggp</td>
+</tr>
+
+<tr>
+<td align="left">ggsup</td>
+<td align="left">git branch &ndash;set-upstream-to = origin/$(current_branch)</td>
+</tr>
+
+<tr>
+<td align="left">gpsup</td>
+<td align="left">git push &ndash;set-upstream origin $(current_branch)</td>
+</tr>
+
+<tr>
+<td align="left">gignore</td>
+<td align="left">git update-index &ndash;assume-unchanged</td>
+</tr>
+
+<tr>
+<td align="left">gignored</td>
+<td align="left">git ls-files -v | grep &ldquo;<sup class="footnote-ref" id="fnref:lower"><a href="#fn:lower">1</a></sup>&ldquo;</td>
+</tr>
+
+<tr>
+<td align="left">git-svn-dcommit-push</td>
+<td align="left">git svn dcommit &amp;&amp; git push github master:svntrunk</td>
+</tr>
+
+<tr>
+<td align="left">gk</td>
+<td align="left">\gitk &ndash;all &ndash;branches</td>
+</tr>
+
+<tr>
+<td align="left">gke</td>
+<td align="left">\gitk &ndash;all $(git log -g &ndash;pretty = format:%h)</td>
+</tr>
+
+<tr>
+<td align="left">gl</td>
+<td align="left">git pull</td>
+</tr>
+
+<tr>
+<td align="left">glg</td>
+<td align="left">git log &ndash;stat &ndash;color</td>
+</tr>
+
+<tr>
+<td align="left">glgg</td>
+<td align="left">git log &ndash;graph &ndash;color</td>
+</tr>
+
+<tr>
+<td align="left">glgga</td>
+<td align="left">git log &ndash;graph &ndash;decorate &ndash;all</td>
+</tr>
+
+<tr>
+<td align="left">glgm</td>
+<td align="left">git log &ndash;graph &ndash;max-count = 10</td>
+</tr>
+
+<tr>
+<td align="left">glgp</td>
+<td align="left">git log &ndash;stat &ndash;color -p</td>
+</tr>
+
+<tr>
+<td align="left">glo</td>
+<td align="left">git log &ndash;oneline &ndash;decorate &ndash;color</td>
+</tr>
+
+<tr>
+<td align="left">glog</td>
+<td align="left">git log &ndash;oneline &ndash;decorate &ndash;color &ndash;graph</td>
+</tr>
+
+<tr>
+<td align="left">glol</td>
+<td align="left">git log &ndash;graph &ndash;pretty = format:&lsquo;%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)&lt;%an&gt;%Creset&rsquo; &ndash;abbrev-commit</td>
+</tr>
+
+<tr>
+<td align="left">glola</td>
+<td align="left">git log &ndash;graph &ndash;pretty = format:&lsquo;%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)&lt;%an&gt;%Creset&rsquo; &ndash;abbrev-commit &ndash;all</td>
+</tr>
+
+<tr>
+<td align="left">glp</td>
+<td align="left">_git_log_prettily</td>
+</tr>
+
+<tr>
+<td align="left">gm</td>
+<td align="left">git merge</td>
+</tr>
+
+<tr>
+<td align="left">gmom</td>
+<td align="left">git merge origin/master</td>
+</tr>
+
+<tr>
+<td align="left">gmt</td>
+<td align="left">git mergetool &ndash;no-prompt</td>
+</tr>
+
+<tr>
+<td align="left">gmtvim</td>
+<td align="left">git mergetool &ndash;no-prompt &ndash;tool = vimdiff</td>
+</tr>
+
+<tr>
+<td align="left">gmum</td>
+<td align="left">git merge upstream/master</td>
+</tr>
+
+<tr>
+<td align="left">gp</td>
+<td align="left">git push</td>
+</tr>
+
+<tr>
+<td align="left">gpd</td>
+<td align="left">git push &ndash;dry-run</td>
+</tr>
+
+<tr>
+<td align="left">gpoat</td>
+<td align="left">git push origin &ndash;all &amp;&amp; git push origin &ndash;tags</td>
+</tr>
+
+<tr>
+<td align="left">gpristine</td>
+<td align="left">git reset &ndash;hard &amp;&amp; git clean -dfx</td>
+</tr>
+
+<tr>
+<td align="left">gpu</td>
+<td align="left">git push upstream</td>
+</tr>
+
+<tr>
+<td align="left">gpv</td>
+<td align="left">git push -v</td>
+</tr>
+
+<tr>
+<td align="left">gr</td>
+<td align="left">git remote</td>
+</tr>
+
+<tr>
+<td align="left">gra</td>
+<td align="left">git remote add</td>
+</tr>
+
+<tr>
+<td align="left">grb</td>
+<td align="left">git rebase</td>
+</tr>
+
+<tr>
+<td align="left">grba</td>
+<td align="left">git rebase &ndash;abort</td>
+</tr>
+
+<tr>
+<td align="left">grbc</td>
+<td align="left">git rebase &ndash;continue</td>
+</tr>
+
+<tr>
+<td align="left">grbi</td>
+<td align="left">git rebase -i</td>
+</tr>
+
+<tr>
+<td align="left">grbm</td>
+<td align="left">git rebase master</td>
+</tr>
+
+<tr>
+<td align="left">grbs</td>
+<td align="left">git rebase &ndash;skip</td>
+</tr>
+
+<tr>
+<td align="left">grh</td>
+<td align="left">git reset HEAD</td>
+</tr>
+
+<tr>
+<td align="left">grhh</td>
+<td align="left">git reset HEAD &ndash;hard</td>
+</tr>
+
+<tr>
+<td align="left">grmv</td>
+<td align="left">git remote rename</td>
+</tr>
+
+<tr>
+<td align="left">grrm</td>
+<td align="left">git remote remove</td>
+</tr>
+
+<tr>
+<td align="left">grset</td>
+<td align="left">git remote set-url</td>
+</tr>
+
+<tr>
+<td align="left">grt</td>
+<td align="left">cd $(git rev-parse &ndash;show-toplevel || echo &ldquo;.&rdquo;)</td>
+</tr>
+
+<tr>
+<td align="left">gru</td>
+<td align="left">git reset &ndash;</td>
+</tr>
+
+<tr>
+<td align="left">grup</td>
+<td align="left">git remote update</td>
+</tr>
+
+<tr>
+<td align="left">grv</td>
+<td align="left">git remote -v</td>
+</tr>
+
+<tr>
+<td align="left">gsb</td>
+<td align="left">git status -sb</td>
+</tr>
+
+<tr>
+<td align="left">gsd</td>
+<td align="left">git svn dcommit</td>
+</tr>
+
+<tr>
+<td align="left">gsi</td>
+<td align="left">git submodule init</td>
+</tr>
+
+<tr>
+<td align="left">gsps</td>
+<td align="left">git show &ndash;pretty = short &ndash;show-signature</td>
+</tr>
+
+<tr>
+<td align="left">gsr</td>
+<td align="left">git svn rebase</td>
+</tr>
+
+<tr>
+<td align="left">gss</td>
+<td align="left">git status -s</td>
+</tr>
+
+<tr>
+<td align="left">gst</td>
+<td align="left">git status</td>
+</tr>
+
+<tr>
+<td align="left">gsta</td>
+<td align="left">git stash save</td>
+</tr>
+
+<tr>
+<td align="left">gstaa</td>
+<td align="left">git stash apply</td>
+</tr>
+
+<tr>
+<td align="left">gstd</td>
+<td align="left">git stash drop</td>
+</tr>
+
+<tr>
+<td align="left">gstl</td>
+<td align="left">git stash list</td>
+</tr>
+
+<tr>
+<td align="left">gstp</td>
+<td align="left">git stash pop</td>
+</tr>
+
+<tr>
+<td align="left">gstc</td>
+<td align="left">git stash clear</td>
+</tr>
+
+<tr>
+<td align="left">gsts</td>
+<td align="left">git stash show &ndash;text</td>
+</tr>
+
+<tr>
+<td align="left">gsu</td>
+<td align="left">git submodule update</td>
+</tr>
+
+<tr>
+<td align="left">gts</td>
+<td align="left">git tag -s</td>
+</tr>
+
+<tr>
+<td align="left">gunignore</td>
+<td align="left">git update-index &ndash;no-assume-unchanged</td>
+</tr>
+
+<tr>
+<td align="left">gunwip</td>
+<td align="left">git log -n 1 | grep -q -c &ldquo;--wip--&rdquo; &amp;&amp; git reset HEAD~1</td>
+</tr>
+
+<tr>
+<td align="left">gup</td>
+<td align="left">git pull &ndash;rebase</td>
+</tr>
+
+<tr>
+<td align="left">gupv</td>
+<td align="left">git pull &ndash;rebase -v</td>
+</tr>
+
+<tr>
+<td align="left">glum</td>
+<td align="left">git pull upstream master</td>
+</tr>
+
+<tr>
+<td align="left">gvt</td>
+<td align="left">git verify-tag</td>
+</tr>
+
+<tr>
+<td align="left">gwch</td>
+<td align="left">git whatchanged -p &ndash;abbrev-commit &ndash;pretty = medium</td>
+</tr>
+
+<tr>
+<td align="left">gwip</td>
+<td align="left">git add -A; git rm $(git ls-files &ndash;deleted) 2&gt; /dev/null; git commit -m &ldquo;&ndash;wip&ndash;&rdquo;</td>
+</tr>
+</tbody>
+</table>
+
+<h2 id="deprecated-aliases">Deprecated Aliases</h2>
+
+<p>These are aliases that have been removed, renamed, or otherwise modified in a way that may, or may not, receive further support.</p>
+
+<table>
+<thead>
+<tr>
+<th align="left">Alias</th>
+<th align="left">Command</th>
+<th>Modification</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td align="left">gap</td>
+<td align="left">git add &ndash;patch</td>
+<td>new alias <code>gapa</code></td>
+</tr>
+
+<tr>
+<td align="left">gcl</td>
+<td align="left">git config &ndash;list</td>
+<td>new alias <code>gcf</code></td>
+</tr>
+
+<tr>
+<td align="left">gdc</td>
+<td align="left">git diff &ndash;cached</td>
+<td>new alias <code>gdca</code></td>
+</tr>
+
+<tr>
+<td align="left">gdt</td>
+<td align="left">git difftool</td>
+<td>no replacement</td>
+</tr>
+
+<tr>
+<td align="left">ggpull</td>
+<td align="left">git pull origin $(current_branch)</td>
+<td>new alias <code>ggl</code> (<code>ggpull</code> still exists for now though)</td>
+</tr>
+
+<tr>
+<td align="left">ggpur</td>
+<td align="left">git pull &ndash;rebase origin $(current_branch)</td>
+<td>new alias <code>ggu</code> (<code>ggpur</code> still exists for now though)</td>
+</tr>
+
+<tr>
+<td align="left">ggpush</td>
+<td align="left">git push origin $(current_branch)</td>
+<td>new alias <code>ggp</code> (<code>ggpush</code> still exists for now though)</td>
+</tr>
+
+<tr>
+<td align="left">gk</td>
+<td align="left">gitk &ndash;all &ndash;branches</td>
+<td>now aliased to <code>\gitk --all --branches</code></td>
+</tr>
+
+<tr>
+<td align="left">glg</td>
+<td align="left">git log &ndash;stat &ndash;max-count = 10</td>
+<td>now aliased to <code>git log --stat --color</code></td>
+</tr>
+
+<tr>
+<td align="left">glgg</td>
+<td align="left">git log &ndash;graph &ndash;max-count = 10</td>
+<td>now aliased to <code>git log --graph --color</code></td>
+</tr>
+
+<tr>
+<td align="left">gwc</td>
+<td align="left">git whatchanged -p &ndash;abbrev-commit &ndash;pretty = medium</td>
+<td>new alias <code>gwch</code></td>
+</tr>
+
+<tr>
+<td align="left">gwip</td>
+<td align="left">git add -A; git ls-files &ndash;deleted -z | xargs -r0 git rm; git commit -m &ldquo;&ndash;wip&ndash;&rdquo;</td>
+<td>now aliased to <code>git add -A; git rm $(git ls-files --deleted) 2&gt; /dev/null; git commit -m &quot;--wip--&quot;</code></td>
+</tr>
+</tbody>
+</table>
+
+<h2 id="functions">Functions</h2>
+
+<h3 id="current">Current</h3>
+
+<table>
+<thead>
+<tr>
+<th align="left">Command</th>
+<th align="left">Description</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td align="left">current_branch</td>
+<td align="left">Return the name of the current branch</td>
+</tr>
+
+<tr>
+<td align="left">current_repository</td>
+<td align="left">Return the names of the current remotes</td>
+</tr>
+
+<tr>
+<td align="left">git_current_user_name</td>
+<td align="left">Returns the <code>user.name</code> config value</td>
+</tr>
+
+<tr>
+<td align="left">git_current_user_email</td>
+<td align="left">Returns the <code>user.email</code> config value</td>
+</tr>
+</tbody>
+</table>
+
+<h3 id="wip">WiP</h3>
+
+<p>These features allow to pause a branch development and switch to another one (<em>&ldquo;Work in Progress&rdquo;</em>,  or wip). When you want to go back to work, just unwip it.</p>
+
+<table>
+<thead>
+<tr>
+<th align="left">Command</th>
+<th align="left">Description</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td align="left">work_in_progress</td>
+<td align="left">Echoes a warning if the current branch is a wip</td>
+</tr>
+
+<tr>
+<td align="left">gwip</td>
+<td align="left">Commit wip branch</td>
+</tr>
+
+<tr>
+<td align="left">gunwip</td>
+<td align="left">Uncommit wip branch</td>
+</tr>
+</tbody>
+</table>
+<div class="footnotes">
+
+<hr />
+
+<ol>
+<li id="fn:lower">[:lower:] <a class="footnote-return" href="#fnref:lower"><sup>[return]</sup></a></li>
+</ol>
+</div>
+
+    </div>
+
+    
+    <div class="post-copyright">
+  <p class="copyright-item">
+    <span class="item-title">文章作者</span>
+    <span class="item-content">Rudy Xiong</span>
+  </p>
+  <p class="copyright-item">
+    <span class="item-title">上次更新</span>
+    <span class="item-content">2018-07-18</span>
+  </p>
+  
+  
+</div>
+
+    
+    
+
+    <footer class="post-footer">
+      <div class="post-tags">
+          
+          <a href="/tags/oh-my-zsh/">oh-my-zsh</a>
+          
+          <a href="/tags/git/">git</a>
+          
+          <a href="/tags/plugin/">plugin</a>
+          
+        </div>
+
+      
+      <nav class="post-nav">
+        
+        
+          <a class="next" href="/post/100007/">
+            <span class="next-text nav-default">Ubuntu设置静态IP</span>
+            <span class="next-text nav-mobile">下一篇</span>
+            <i class="iconfont icon-right"></i>
+          </a>
+      </nav>
+    </footer>
+  </article>
+        </div>
+        
+  <div id="comments-gitment"></div>
+  <link rel="stylesheet" href="/lib/gitment/gitment-0.0.3.min.css">
+    <script src="/lib/gitment/gitment-0.0.3.min.js"></script>
+  <script type="text/javascript">
+  const gitment = new Gitment({
+    id: '2018-07-18 13:15:29 \x2b0800 CST',
+    title: 'oh-my-zsh: git Plugin',
+    link: decodeURI(location.href),
+    desc: 'The git Plugin The git plugin provides many aliases and a few useful functions.\nEnable it by adding git to the plugins array before sourcing OMZ (see [[Plugins]]).\nAliases    Alias Command     g git   ga git add   gaa git add \x26ndash;all   gapa git add \x26ndash;patch   gau git add \x26ndash;update   gb git branch   gba git branch -a   gbda git branch \x26ndash;merged | command grep -vE \x26ldquo;^(*|\\smaster\\s$)\x26rdquo; | command xargs -n 1 git branch -d   gbl git blame -b -w   gbnm git branch \x26ndash;no-merged   gbr git branch \x26ndash;remote   gbs git bisect   gbsb git bisect bad   gbsg git bisect good   gbsr git bisect reset   gbss git bisect start   gc git commit -v   gc!',
+    owner: 'xinjiguaike',
+    repo: 'xinjiguaike.github.io',
+    oauth: {
+      client_id: 'adaa0ca144e87300a5d9',
+      client_secret: '515c7cb793c2c284de53f1b35bd939d68c8d1ec8'
+    }
+  })
+  gitment.render('comments-gitment')
+  </script>
+  <noscript>Please enable JavaScript to view the <a href="https://github.com/imsun/gitment">comments powered by gitment.</a></noscript>
+
+  
+
+      </div>
+    </main>
+
+    <footer id="footer" class="footer">
+      <div class="social-links">
+      <a href="xinjiguaike@163.com" class="iconfont icon-email" title="email"></a>
+      <a href="https://github.com/xinjiguaike" class="iconfont icon-github" title="github"></a>
+      <a href="https://weibo.com/1676905891/profile" class="iconfont icon-weibo" title="weibo"></a>
+      <a href="http://www.linkedin.com/in/%e4%ba%9a%e5%b9%b3-%e7%86%8a-532631105/" class="iconfont icon-linkedin" title="linkedin"></a>
+      <a href="https://stackoverflow.com/users/3647230/rudy-xiong" class="iconfont icon-stack-overflow" title="stack-overflow"></a>
+      <a href="https://twitter.com/RudyXiong2" class="iconfont icon-twitter" title="twitter"></a>
+      <a href="https://www.facebook.com/rudy.xiong.9" class="iconfont icon-facebook" title="facebook"></a>
+      <a href="https://plus.google.com/101731026098839618598" class="iconfont icon-google" title="google"></a>
+
+</div>
+
+<div class="copyright">
+  <span class="power-by">
+    由 <a class="hexo-link" href="https://gohugo.io">Hugo</a> 强力驱动
+  </span>
+  <span class="division">|</span>
+  <span class="theme-info">
+    主题 - 
+    <a class="theme-link" href="https://github.com/olOwOlo/hugo-theme-even">Even</a>
+  </span>
+
+  
+
+  <span class="copyright-year">
+    &copy; 
+    
+      2017 - 
+    2018
+    <span class="heart">
+      <i class="iconfont icon-heart"></i>
+    </span>
+    <span class="author">Rudy Xiong</span>
+  </span>
+</div>
+    </footer>
+
+    <div class="back-to-top" id="back-to-top">
+      <i class="iconfont icon-up"></i>
+    </div>
+  </div>
+  
+<script src="/lib/highlight/highlight.pack.js?v=20171001"></script><script type="text/javascript" src="/lib/jquery/jquery-3.2.1.min.js"></script>
+  <script type="text/javascript" src="/lib/slideout/slideout-1.0.1.min.js"></script>
+  <script type="text/javascript" src="/lib/fancybox/jquery.fancybox-3.1.20.min.js"></script>
+
+
+<script type="text/javascript" src="/dist/even.min.js?v=3.2.0"></script>
+
+
+
+
+
+
+
+
+</body>
+</html>

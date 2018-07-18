@@ -6,10 +6,21 @@
     <description>Recent content in Posts on Rudy Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 17 Jul 2018 17:30:49 +0800</lastBuildDate>
+    <lastBuildDate>Wed, 18 Jul 2018 13:15:29 +0800</lastBuildDate>
     
 	<atom:link href="https://xinjiguaike.github.com/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>oh-my-zsh: git Plugin</title>
+      <link>https://xinjiguaike.github.com/post/100008/</link>
+      <pubDate>Wed, 18 Jul 2018 13:15:29 +0800</pubDate>
+      
+      <guid>https://xinjiguaike.github.com/post/100008/</guid>
+      <description>The git Plugin The git plugin provides many aliases and a few useful functions.
+Enable it by adding git to the plugins array before sourcing OMZ (see [[Plugins]]).
+Aliases    Alias Command     g git   ga git add   gaa git add &amp;ndash;all   gapa git add &amp;ndash;patch   gau git add &amp;ndash;update   gb git branch   gba git branch -a   gbda git branch &amp;ndash;merged | command grep -vE &amp;ldquo;^(*|\smaster\s$)&amp;rdquo; | command xargs -n 1 git branch -d   gbl git blame -b -w   gbnm git branch &amp;ndash;no-merged   gbr git branch &amp;ndash;remote   gbs git bisect   gbsb git bisect bad   gbsg git bisect good   gbsr git bisect reset   gbss git bisect start   gc git commit -v   gc!</description>
+    </item>
     
     <item>
       <title>Ubuntu设置静态IP</title>
