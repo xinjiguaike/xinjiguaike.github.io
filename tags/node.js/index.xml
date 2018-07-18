@@ -2,39 +2,39 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Node.js on Rudy Blog</title>
-    <link>https://xinjiguaike.github.io/tags/node.js/</link>
+    <link>https://xinjiguaike.github.com/tags/node.js/</link>
     <description>Recent content in Node.js on Rudy Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <lastBuildDate>Sun, 15 Jul 2018 17:30:49 +0800</lastBuildDate>
     
-	<atom:link href="https://xinjiguaike.github.io/tags/node.js/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://xinjiguaike.github.com/tags/node.js/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>基于keystoneJS的后台管理系统</title>
-      <link>https://xinjiguaike.github.io/post/100006/</link>
+      <link>https://xinjiguaike.github.com/post/100006/</link>
       <pubDate>Sun, 15 Jul 2018 17:30:49 +0800</pubDate>
       
-      <guid>https://xinjiguaike.github.io/post/100006/</guid>
+      <guid>https://xinjiguaike.github.com/post/100006/</guid>
       <description>环境安装： node 环境（node，npm, 建议nvm管理） pm2 安装（npm install -g pm2） nginx 安装 redis 安装 mongo 安装 项目部署： 下载代码（git clone） 创建c</description>
     </item>
     
     <item>
       <title>Meteor部署问题汇总</title>
-      <link>https://xinjiguaike.github.io/post/100005/</link>
+      <link>https://xinjiguaike.github.com/post/100005/</link>
       <pubDate>Fri, 13 Jul 2018 16:30:49 +0800</pubDate>
       
-      <guid>https://xinjiguaike.github.io/post/100005/</guid>
+      <guid>https://xinjiguaike.github.com/post/100005/</guid>
       <description>服务器环境部署meteor 服务器包含： nodejs、git、mongodb 安装meteor $ curl https://install.meteor.com/ | sh 安装demeteorizer $ npm install -g demeteorizer 安</description>
     </item>
     
     <item>
       <title>pm2 服务开机自启动</title>
-      <link>https://xinjiguaike.github.io/post/100002/</link>
+      <link>https://xinjiguaike.github.com/post/100002/</link>
       <pubDate>Wed, 13 Jun 2018 12:30:49 +0800</pubDate>
       
-      <guid>https://xinjiguaike.github.io/post/100002/</guid>
+      <guid>https://xinjiguaike.github.com/post/100002/</guid>
       <description>pm2 start index.js —name app_name pm2 save pm2 startup(按照CLI提示复制相应命令并执行) 参考： https://pm2.io/doc/en/runtime/guide/startup-hook/#installation</description>
     </item>
     

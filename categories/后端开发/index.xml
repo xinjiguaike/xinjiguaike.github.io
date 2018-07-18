@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>后端开发 on Rudy Blog</title>
-    <link>https://xinjiguaike.github.io/categories/%E5%90%8E%E7%AB%AF%E5%BC%80%E5%8F%91/</link>
+    <link>https://xinjiguaike.github.com/categories/%E5%90%8E%E7%AB%AF%E5%BC%80%E5%8F%91/</link>
     <description>Recent content in 后端开发 on Rudy Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <lastBuildDate>Wed, 13 Jun 2018 12:30:49 +0800</lastBuildDate>
     
-	<atom:link href="https://xinjiguaike.github.io/categories/%E5%90%8E%E7%AB%AF%E5%BC%80%E5%8F%91/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://xinjiguaike.github.com/categories/%E5%90%8E%E7%AB%AF%E5%BC%80%E5%8F%91/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>pm2 服务开机自启动</title>
-      <link>https://xinjiguaike.github.io/post/100002/</link>
+      <link>https://xinjiguaike.github.com/post/100002/</link>
       <pubDate>Wed, 13 Jun 2018 12:30:49 +0800</pubDate>
       
-      <guid>https://xinjiguaike.github.io/post/100002/</guid>
+      <guid>https://xinjiguaike.github.com/post/100002/</guid>
       <description>pm2 start index.js —name app_name pm2 save pm2 startup(按照CLI提示复制相应命令并执行) 参考： https://pm2.io/doc/en/runtime/guide/startup-hook/#installation</description>
     </item>
     

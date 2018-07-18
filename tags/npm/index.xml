@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Npm on Rudy Blog</title>
-    <link>https://xinjiguaike.github.io/tags/npm/</link>
+    <link>https://xinjiguaike.github.com/tags/npm/</link>
     <description>Recent content in Npm on Rudy Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <lastBuildDate>Fri, 13 Jul 2018 16:30:49 +0800</lastBuildDate>
     
-	<atom:link href="https://xinjiguaike.github.io/tags/npm/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://xinjiguaike.github.com/tags/npm/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Meteor部署问题汇总</title>
-      <link>https://xinjiguaike.github.io/post/100005/</link>
+      <link>https://xinjiguaike.github.com/post/100005/</link>
       <pubDate>Fri, 13 Jul 2018 16:30:49 +0800</pubDate>
       
-      <guid>https://xinjiguaike.github.io/post/100005/</guid>
+      <guid>https://xinjiguaike.github.com/post/100005/</guid>
       <description>服务器环境部署meteor 服务器包含： nodejs、git、mongodb 安装meteor $ curl https://install.meteor.com/ | sh 安装demeteorizer $ npm install -g demeteorizer 安</description>
     </item>
     

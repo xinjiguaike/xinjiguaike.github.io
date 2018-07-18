@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Ssh on Rudy Blog</title>
-    <link>https://xinjiguaike.github.io/tags/ssh/</link>
+    <link>https://xinjiguaike.github.com/tags/ssh/</link>
     <description>Recent content in Ssh on Rudy Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <lastBuildDate>Sat, 23 Jun 2018 15:30:49 +0800</lastBuildDate>
     
-	<atom:link href="https://xinjiguaike.github.io/tags/ssh/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://xinjiguaike.github.com/tags/ssh/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Docker环境部署问题汇总</title>
-      <link>https://xinjiguaike.github.io/post/100004/</link>
+      <link>https://xinjiguaike.github.com/post/100004/</link>
       <pubDate>Sat, 23 Jun 2018 15:30:49 +0800</pubDate>
       
-      <guid>https://xinjiguaike.github.io/post/100004/</guid>
+      <guid>https://xinjiguaike.github.com/post/100004/</guid>
       <description>docker 相关命令： docker ps: 查看当前运行的容器 docker ps -a : 查看所有的容器 docker start {容器id或name} 启动指定容器 docker stop {容器id或name} 停止指定容器 docker rm {容</description>
     </item>
     

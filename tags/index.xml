@@ -2,282 +2,174 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Rudy Blog</title>
-    <link>https://xinjiguaike.github.io/tags/</link>
+    <link>https://xinjiguaike.github.com/tags/</link>
     <description>Recent content in Tags on Rudy Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <lastBuildDate>Sat, 23 Jun 2018 15:30:49 +0800</lastBuildDate>
     
-	<atom:link href="https://xinjiguaike.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://xinjiguaike.github.com/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Centos</title>
-      <link>https://xinjiguaike.github.io/tags/centos/</link>
+      <link>https://xinjiguaike.github.com/tags/centos/</link>
       <pubDate>Sat, 23 Jun 2018 15:30:49 +0800</pubDate>
       
-      <guid>https://xinjiguaike.github.io/tags/centos/</guid>
+      <guid>https://xinjiguaike.github.com/tags/centos/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Docker</title>
-      <link>https://xinjiguaike.github.io/tags/docker/</link>
+      <link>https://xinjiguaike.github.com/tags/docker/</link>
       <pubDate>Sat, 23 Jun 2018 15:30:49 +0800</pubDate>
       
-      <guid>https://xinjiguaike.github.io/tags/docker/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>English</title>
-      <link>https://xinjiguaike.github.io/tags/english/</link>
-      <pubDate>Thu, 31 Aug 2017 15:43:48 +0800</pubDate>
-      
-      <guid>https://xinjiguaike.github.io/tags/english/</guid>
+      <guid>https://xinjiguaike.github.com/tags/docker/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Ionic 3</title>
-      <link>https://xinjiguaike.github.io/tags/ionic-3/</link>
+      <link>https://xinjiguaike.github.com/tags/ionic-3/</link>
       <pubDate>Mon, 04 Jun 2018 13:50:46 +0200</pubDate>
       
-      <guid>https://xinjiguaike.github.io/tags/ionic-3/</guid>
+      <guid>https://xinjiguaike.github.com/tags/ionic-3/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Ios simulator</title>
-      <link>https://xinjiguaike.github.io/tags/ios-simulator/</link>
+      <link>https://xinjiguaike.github.com/tags/ios-simulator/</link>
       <pubDate>Mon, 04 Jun 2018 13:50:46 +0200</pubDate>
       
-      <guid>https://xinjiguaike.github.io/tags/ios-simulator/</guid>
+      <guid>https://xinjiguaike.github.com/tags/ios-simulator/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Ip设置</title>
-      <link>https://xinjiguaike.github.io/tags/ip%E8%AE%BE%E7%BD%AE/</link>
+      <link>https://xinjiguaike.github.com/tags/ip%E8%AE%BE%E7%BD%AE/</link>
       <pubDate>Tue, 17 Jul 2018 17:30:49 +0800</pubDate>
       
-      <guid>https://xinjiguaike.github.io/tags/ip%E8%AE%BE%E7%BD%AE/</guid>
+      <guid>https://xinjiguaike.github.com/tags/ip%E8%AE%BE%E7%BD%AE/</guid>
       <description></description>
     </item>
     
     <item>
       <title>KeystoneJS</title>
-      <link>https://xinjiguaike.github.io/tags/keystonejs/</link>
+      <link>https://xinjiguaike.github.com/tags/keystonejs/</link>
       <pubDate>Sun, 15 Jul 2018 17:30:49 +0800</pubDate>
       
-      <guid>https://xinjiguaike.github.io/tags/keystonejs/</guid>
+      <guid>https://xinjiguaike.github.com/tags/keystonejs/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Linux</title>
-      <link>https://xinjiguaike.github.io/tags/linux/</link>
+      <link>https://xinjiguaike.github.com/tags/linux/</link>
       <pubDate>Tue, 17 Jul 2018 17:30:49 +0800</pubDate>
       
-      <guid>https://xinjiguaike.github.io/tags/linux/</guid>
+      <guid>https://xinjiguaike.github.com/tags/linux/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Meteor</title>
-      <link>https://xinjiguaike.github.io/tags/meteor/</link>
+      <link>https://xinjiguaike.github.com/tags/meteor/</link>
       <pubDate>Fri, 13 Jul 2018 16:30:49 +0800</pubDate>
       
-      <guid>https://xinjiguaike.github.io/tags/meteor/</guid>
+      <guid>https://xinjiguaike.github.com/tags/meteor/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Mongo</title>
-      <link>https://xinjiguaike.github.io/tags/mongo/</link>
+      <link>https://xinjiguaike.github.com/tags/mongo/</link>
       <pubDate>Sun, 15 Jul 2018 17:30:49 +0800</pubDate>
       
-      <guid>https://xinjiguaike.github.io/tags/mongo/</guid>
+      <guid>https://xinjiguaike.github.com/tags/mongo/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Nginx</title>
-      <link>https://xinjiguaike.github.io/tags/nginx/</link>
+      <link>https://xinjiguaike.github.com/tags/nginx/</link>
       <pubDate>Sun, 15 Jul 2018 17:30:49 +0800</pubDate>
       
-      <guid>https://xinjiguaike.github.io/tags/nginx/</guid>
+      <guid>https://xinjiguaike.github.com/tags/nginx/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Node.js</title>
-      <link>https://xinjiguaike.github.io/tags/node.js/</link>
+      <link>https://xinjiguaike.github.com/tags/node.js/</link>
       <pubDate>Sun, 15 Jul 2018 17:30:49 +0800</pubDate>
       
-      <guid>https://xinjiguaike.github.io/tags/node.js/</guid>
+      <guid>https://xinjiguaike.github.com/tags/node.js/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Npm</title>
-      <link>https://xinjiguaike.github.io/tags/npm/</link>
+      <link>https://xinjiguaike.github.com/tags/npm/</link>
       <pubDate>Fri, 13 Jul 2018 16:30:49 +0800</pubDate>
       
-      <guid>https://xinjiguaike.github.io/tags/npm/</guid>
+      <guid>https://xinjiguaike.github.com/tags/npm/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Pm2</title>
-      <link>https://xinjiguaike.github.io/tags/pm2/</link>
+      <link>https://xinjiguaike.github.com/tags/pm2/</link>
       <pubDate>Sun, 15 Jul 2018 17:30:49 +0800</pubDate>
       
-      <guid>https://xinjiguaike.github.io/tags/pm2/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Preview</title>
-      <link>https://xinjiguaike.github.io/tags/preview/</link>
-      <pubDate>Wed, 23 Aug 2017 18:03:09 +0800</pubDate>
-      
-      <guid>https://xinjiguaike.github.io/tags/preview/</guid>
+      <guid>https://xinjiguaike.github.com/tags/pm2/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Redis</title>
-      <link>https://xinjiguaike.github.io/tags/redis/</link>
+      <link>https://xinjiguaike.github.com/tags/redis/</link>
       <pubDate>Sun, 15 Jul 2018 17:30:49 +0800</pubDate>
       
-      <guid>https://xinjiguaike.github.io/tags/redis/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Shortcodes</title>
-      <link>https://xinjiguaike.github.io/tags/shortcodes/</link>
-      <pubDate>Tue, 30 Aug 2016 16:01:23 +0800</pubDate>
-      
-      <guid>https://xinjiguaike.github.io/tags/shortcodes/</guid>
+      <guid>https://xinjiguaike.github.com/tags/redis/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Ssh</title>
-      <link>https://xinjiguaike.github.io/tags/ssh/</link>
+      <link>https://xinjiguaike.github.com/tags/ssh/</link>
       <pubDate>Sat, 23 Jun 2018 15:30:49 +0800</pubDate>
       
-      <guid>https://xinjiguaike.github.io/tags/ssh/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Syntax Highlighting</title>
-      <link>https://xinjiguaike.github.io/tags/syntax-highlighting/</link>
-      <pubDate>Tue, 30 Aug 2011 16:01:23 +0800</pubDate>
-      
-      <guid>https://xinjiguaike.github.io/tags/syntax-highlighting/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Tag-1</title>
-      <link>https://xinjiguaike.github.io/tags/tag-1/</link>
-      <pubDate>Wed, 30 Aug 2017 01:37:56 +0800</pubDate>
-      
-      <guid>https://xinjiguaike.github.io/tags/tag-1/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Tag-2</title>
-      <link>https://xinjiguaike.github.io/tags/tag-2/</link>
-      <pubDate>Thu, 31 Aug 2017 15:43:48 +0800</pubDate>
-      
-      <guid>https://xinjiguaike.github.io/tags/tag-2/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Tag-3</title>
-      <link>https://xinjiguaike.github.io/tags/tag-3/</link>
-      <pubDate>Wed, 23 Aug 2017 18:03:09 +0800</pubDate>
-      
-      <guid>https://xinjiguaike.github.io/tags/tag-3/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Tag-4</title>
-      <link>https://xinjiguaike.github.io/tags/tag-4/</link>
-      <pubDate>Wed, 30 Aug 2017 01:53:34 +0800</pubDate>
-      
-      <guid>https://xinjiguaike.github.io/tags/tag-4/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Tag-5</title>
-      <link>https://xinjiguaike.github.io/tags/tag-5/</link>
-      <pubDate>Tue, 30 Aug 2011 16:01:23 +0800</pubDate>
-      
-      <guid>https://xinjiguaike.github.io/tags/tag-5/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Theme preview</title>
-      <link>https://xinjiguaike.github.io/tags/theme-preview/</link>
-      <pubDate>Wed, 23 Aug 2017 18:03:09 +0800</pubDate>
-      
-      <guid>https://xinjiguaike.github.io/tags/theme-preview/</guid>
+      <guid>https://xinjiguaike.github.com/tags/ssh/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Ubuntu</title>
-      <link>https://xinjiguaike.github.io/tags/ubuntu/</link>
+      <link>https://xinjiguaike.github.com/tags/ubuntu/</link>
       <pubDate>Tue, 17 Jul 2018 17:30:49 +0800</pubDate>
       
-      <guid>https://xinjiguaike.github.io/tags/ubuntu/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>中文</title>
-      <link>https://xinjiguaike.github.io/tags/%E4%B8%AD%E6%96%87/</link>
-      <pubDate>Wed, 30 Aug 2017 01:37:56 +0800</pubDate>
-      
-      <guid>https://xinjiguaike.github.io/tags/%E4%B8%AD%E6%96%87/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>日本語</title>
-      <link>https://xinjiguaike.github.io/tags/%E6%97%A5%E6%9C%AC%E8%AA%9E/</link>
-      <pubDate>Wed, 30 Aug 2017 01:53:34 +0800</pubDate>
-      
-      <guid>https://xinjiguaike.github.io/tags/%E6%97%A5%E6%9C%AC%E8%AA%9E/</guid>
+      <guid>https://xinjiguaike.github.com/tags/ubuntu/</guid>
       <description></description>
     </item>
     
     <item>
       <title>模块通信</title>
-      <link>https://xinjiguaike.github.io/tags/%E6%A8%A1%E5%9D%97%E9%80%9A%E4%BF%A1/</link>
+      <link>https://xinjiguaike.github.com/tags/%E6%A8%A1%E5%9D%97%E9%80%9A%E4%BF%A1/</link>
       <pubDate>Mon, 18 Jun 2018 14:30:49 +0800</pubDate>
       
-      <guid>https://xinjiguaike.github.io/tags/%E6%A8%A1%E5%9D%97%E9%80%9A%E4%BF%A1/</guid>
+      <guid>https://xinjiguaike.github.com/tags/%E6%A8%A1%E5%9D%97%E9%80%9A%E4%BF%A1/</guid>
       <description></description>
     </item>
     
     <item>
       <title>系统架构</title>
-      <link>https://xinjiguaike.github.io/tags/%E7%B3%BB%E7%BB%9F%E6%9E%B6%E6%9E%84/</link>
+      <link>https://xinjiguaike.github.com/tags/%E7%B3%BB%E7%BB%9F%E6%9E%B6%E6%9E%84/</link>
       <pubDate>Mon, 18 Jun 2018 14:30:49 +0800</pubDate>
       
-      <guid>https://xinjiguaike.github.io/tags/%E7%B3%BB%E7%BB%9F%E6%9E%B6%E6%9E%84/</guid>
+      <guid>https://xinjiguaike.github.com/tags/%E7%B3%BB%E7%BB%9F%E6%9E%B6%E6%9E%84/</guid>
       <description></description>
     </item>
     

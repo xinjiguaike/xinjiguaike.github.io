@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Linux on Rudy Blog</title>
-    <link>https://xinjiguaike.github.io/tags/linux/</link>
+    <link>https://xinjiguaike.github.com/tags/linux/</link>
     <description>Recent content in Linux on Rudy Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <lastBuildDate>Tue, 17 Jul 2018 17:30:49 +0800</lastBuildDate>
     
-	<atom:link href="https://xinjiguaike.github.io/tags/linux/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://xinjiguaike.github.com/tags/linux/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Ubuntu设置静态IP</title>
-      <link>https://xinjiguaike.github.io/post/100007/</link>
+      <link>https://xinjiguaike.github.com/post/100007/</link>
       <pubDate>Tue, 17 Jul 2018 17:30:49 +0800</pubDate>
       
-      <guid>https://xinjiguaike.github.io/post/100007/</guid>
+      <guid>https://xinjiguaike.github.com/post/100007/</guid>
       <description>Ubuntu的网络参数保存在文件 /etc/network/interfaces中，默认设置使用dhcp，内容如下： # The primary network interface auto eth0 iface eth0 inet dhcp 设置</description>
     </item>
     

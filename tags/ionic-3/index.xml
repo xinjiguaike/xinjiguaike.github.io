@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Ionic 3 on Rudy Blog</title>
-    <link>https://xinjiguaike.github.io/tags/ionic-3/</link>
+    <link>https://xinjiguaike.github.com/tags/ionic-3/</link>
     <description>Recent content in Ionic 3 on Rudy Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <lastBuildDate>Mon, 04 Jun 2018 13:50:46 +0200</lastBuildDate>
     
-	<atom:link href="https://xinjiguaike.github.io/tags/ionic-3/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://xinjiguaike.github.com/tags/ionic-3/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>ionic 模拟器运行失败解决方案</title>
-      <link>https://xinjiguaike.github.io/post/100001/</link>
+      <link>https://xinjiguaike.github.com/post/100001/</link>
       <pubDate>Mon, 04 Jun 2018 13:50:46 +0200</pubDate>
       
-      <guid>https://xinjiguaike.github.io/post/100001/</guid>
+      <guid>https://xinjiguaike.github.com/post/100001/</guid>
       <description>提示错误： 命令行中编译项目成功，但是无法直接运行至模拟器，提示如下错误： No target specified for emulator. Deploying to undefined simulatorDevice type &amp;quot;com.apple.CoreSimulator.SimDeviceType.undefined&amp;quot; could not be found.[ERROR] An error occurred while running cordova run ios (exit code 1). 解决方案： 在项目</description>
     </item>
     

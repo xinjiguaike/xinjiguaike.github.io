@@ -2,128 +2,56 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on Rudy Blog</title>
-    <link>https://xinjiguaike.github.io/categories/</link>
+    <link>https://xinjiguaike.github.com/categories/</link>
     <description>Recent content in Categories on Rudy Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     
-	<atom:link href="https://xinjiguaike.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://xinjiguaike.github.com/categories/index.xml" rel="self" type="application/rss+xml" />
     
-    
-    <item>
-      <title>Category-2</title>
-      <link>https://xinjiguaike.github.io/categories/category-2/</link>
-      <pubDate>Wed, 23 Aug 2017 18:03:09 +0800</pubDate>
-      
-      <guid>https://xinjiguaike.github.io/categories/category-2/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Category-3</title>
-      <link>https://xinjiguaike.github.io/categories/category-3/</link>
-      <pubDate>Wed, 23 Aug 2017 18:03:09 +0800</pubDate>
-      
-      <guid>https://xinjiguaike.github.io/categories/category-3/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>English</title>
-      <link>https://xinjiguaike.github.io/categories/english/</link>
-      <pubDate>Thu, 31 Aug 2017 15:43:48 +0800</pubDate>
-      
-      <guid>https://xinjiguaike.github.io/categories/english/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Shortcodes</title>
-      <link>https://xinjiguaike.github.io/categories/shortcodes/</link>
-      <pubDate>Tue, 30 Aug 2016 16:01:23 +0800</pubDate>
-      
-      <guid>https://xinjiguaike.github.io/categories/shortcodes/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Syntax Highlighting</title>
-      <link>https://xinjiguaike.github.io/categories/syntax-highlighting/</link>
-      <pubDate>Tue, 30 Aug 2011 16:01:23 +0800</pubDate>
-      
-      <guid>https://xinjiguaike.github.io/categories/syntax-highlighting/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Theme preview</title>
-      <link>https://xinjiguaike.github.io/categories/theme-preview/</link>
-      <pubDate>Wed, 23 Aug 2017 18:03:09 +0800</pubDate>
-      
-      <guid>https://xinjiguaike.github.io/categories/theme-preview/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>中文</title>
-      <link>https://xinjiguaike.github.io/categories/%E4%B8%AD%E6%96%87/</link>
-      <pubDate>Wed, 30 Aug 2017 01:37:56 +0800</pubDate>
-      
-      <guid>https://xinjiguaike.github.io/categories/%E4%B8%AD%E6%96%87/</guid>
-      <description></description>
-    </item>
     
     <item>
       <title>后端开发</title>
-      <link>https://xinjiguaike.github.io/categories/%E5%90%8E%E7%AB%AF%E5%BC%80%E5%8F%91/</link>
+      <link>https://xinjiguaike.github.com/categories/%E5%90%8E%E7%AB%AF%E5%BC%80%E5%8F%91/</link>
       <pubDate>Wed, 13 Jun 2018 12:30:49 +0800</pubDate>
       
-      <guid>https://xinjiguaike.github.io/categories/%E5%90%8E%E7%AB%AF%E5%BC%80%E5%8F%91/</guid>
+      <guid>https://xinjiguaike.github.com/categories/%E5%90%8E%E7%AB%AF%E5%BC%80%E5%8F%91/</guid>
       <description></description>
     </item>
     
     <item>
       <title>操作系统</title>
-      <link>https://xinjiguaike.github.io/categories/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/</link>
+      <link>https://xinjiguaike.github.com/categories/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/</link>
       <pubDate>Tue, 17 Jul 2018 17:30:49 +0800</pubDate>
       
-      <guid>https://xinjiguaike.github.io/categories/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>日本語</title>
-      <link>https://xinjiguaike.github.io/categories/%E6%97%A5%E6%9C%AC%E8%AA%9E/</link>
-      <pubDate>Wed, 30 Aug 2017 01:53:34 +0800</pubDate>
-      
-      <guid>https://xinjiguaike.github.io/categories/%E6%97%A5%E6%9C%AC%E8%AA%9E/</guid>
+      <guid>https://xinjiguaike.github.com/categories/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/</guid>
       <description></description>
     </item>
     
     <item>
       <title>环境部署</title>
-      <link>https://xinjiguaike.github.io/categories/%E7%8E%AF%E5%A2%83%E9%83%A8%E7%BD%B2/</link>
+      <link>https://xinjiguaike.github.com/categories/%E7%8E%AF%E5%A2%83%E9%83%A8%E7%BD%B2/</link>
       <pubDate>Sun, 15 Jul 2018 17:30:49 +0800</pubDate>
       
-      <guid>https://xinjiguaike.github.io/categories/%E7%8E%AF%E5%A2%83%E9%83%A8%E7%BD%B2/</guid>
+      <guid>https://xinjiguaike.github.com/categories/%E7%8E%AF%E5%A2%83%E9%83%A8%E7%BD%B2/</guid>
       <description></description>
     </item>
     
     <item>
       <title>移动开发</title>
-      <link>https://xinjiguaike.github.io/categories/%E7%A7%BB%E5%8A%A8%E5%BC%80%E5%8F%91/</link>
+      <link>https://xinjiguaike.github.com/categories/%E7%A7%BB%E5%8A%A8%E5%BC%80%E5%8F%91/</link>
       <pubDate>Mon, 04 Jun 2018 13:50:46 +0200</pubDate>
       
-      <guid>https://xinjiguaike.github.io/categories/%E7%A7%BB%E5%8A%A8%E5%BC%80%E5%8F%91/</guid>
+      <guid>https://xinjiguaike.github.com/categories/%E7%A7%BB%E5%8A%A8%E5%BC%80%E5%8F%91/</guid>
       <description></description>
     </item>
     
     <item>
       <title>视频资源</title>
-      <link>https://xinjiguaike.github.io/categories/%E8%A7%86%E9%A2%91%E8%B5%84%E6%BA%90/</link>
+      <link>https://xinjiguaike.github.com/categories/%E8%A7%86%E9%A2%91%E8%B5%84%E6%BA%90/</link>
       <pubDate>Mon, 18 Jun 2018 14:30:49 +0800</pubDate>
       
-      <guid>https://xinjiguaike.github.io/categories/%E8%A7%86%E9%A2%91%E8%B5%84%E6%BA%90/</guid>
+      <guid>https://xinjiguaike.github.com/categories/%E8%A7%86%E9%A2%91%E8%B5%84%E6%BA%90/</guid>
       <description></description>
     </item>
     

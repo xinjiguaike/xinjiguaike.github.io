@@ -2,39 +2,39 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>环境部署 on Rudy Blog</title>
-    <link>https://xinjiguaike.github.io/categories/%E7%8E%AF%E5%A2%83%E9%83%A8%E7%BD%B2/</link>
+    <link>https://xinjiguaike.github.com/categories/%E7%8E%AF%E5%A2%83%E9%83%A8%E7%BD%B2/</link>
     <description>Recent content in 环境部署 on Rudy Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <lastBuildDate>Sun, 15 Jul 2018 17:30:49 +0800</lastBuildDate>
     
-	<atom:link href="https://xinjiguaike.github.io/categories/%E7%8E%AF%E5%A2%83%E9%83%A8%E7%BD%B2/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://xinjiguaike.github.com/categories/%E7%8E%AF%E5%A2%83%E9%83%A8%E7%BD%B2/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>基于keystoneJS的后台管理系统</title>
-      <link>https://xinjiguaike.github.io/post/100006/</link>
+      <link>https://xinjiguaike.github.com/post/100006/</link>
       <pubDate>Sun, 15 Jul 2018 17:30:49 +0800</pubDate>
       
-      <guid>https://xinjiguaike.github.io/post/100006/</guid>
+      <guid>https://xinjiguaike.github.com/post/100006/</guid>
       <description>环境安装： node 环境（node，npm, 建议nvm管理） pm2 安装（npm install -g pm2） nginx 安装 redis 安装 mongo 安装 项目部署： 下载代码（git clone） 创建c</description>
     </item>
     
     <item>
       <title>Meteor部署问题汇总</title>
-      <link>https://xinjiguaike.github.io/post/100005/</link>
+      <link>https://xinjiguaike.github.com/post/100005/</link>
       <pubDate>Fri, 13 Jul 2018 16:30:49 +0800</pubDate>
       
-      <guid>https://xinjiguaike.github.io/post/100005/</guid>
+      <guid>https://xinjiguaike.github.com/post/100005/</guid>
       <description>服务器环境部署meteor 服务器包含： nodejs、git、mongodb 安装meteor $ curl https://install.meteor.com/ | sh 安装demeteorizer $ npm install -g demeteorizer 安</description>
     </item>
     
     <item>
       <title>Docker环境部署问题汇总</title>
-      <link>https://xinjiguaike.github.io/post/100004/</link>
+      <link>https://xinjiguaike.github.com/post/100004/</link>
       <pubDate>Sat, 23 Jun 2018 15:30:49 +0800</pubDate>
       
-      <guid>https://xinjiguaike.github.io/post/100004/</guid>
+      <guid>https://xinjiguaike.github.com/post/100004/</guid>
       <description>docker 相关命令： docker ps: 查看当前运行的容器 docker ps -a : 查看所有的容器 docker start {容器id或name} 启动指定容器 docker stop {容器id或name} 停止指定容器 docker rm {容</description>
     </item>
     

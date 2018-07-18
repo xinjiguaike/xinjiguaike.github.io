@@ -1,2 +1,2 @@
 User-agent: *
-Sitemap: https://xinjiguaike.github.io/sitemap.xml
+Sitemap: https://xinjiguaike.github.com/sitemap.xml

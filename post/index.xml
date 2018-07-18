@@ -2,213 +2,76 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on Rudy Blog</title>
-    <link>https://xinjiguaike.github.io/post/</link>
+    <link>https://xinjiguaike.github.com/post/</link>
     <description>Recent content in Posts on Rudy Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 23 Aug 2017 18:03:09 +0800</lastBuildDate>
+    <lastBuildDate>Tue, 17 Jul 2018 17:30:49 +0800</lastBuildDate>
     
-	<atom:link href="https://xinjiguaike.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://xinjiguaike.github.com/post/index.xml" rel="self" type="application/rss+xml" />
     
-    
-    <item>
-      <title>Theme preview</title>
-      <link>https://xinjiguaike.github.io/post/even-preview/</link>
-      <pubDate>Wed, 23 Aug 2017 18:03:09 +0800</pubDate>
-      
-      <guid>https://xinjiguaike.github.io/post/even-preview/</guid>
-      <description>Copy from 《Hugo 主题 Nuo 文章样式预览》 这篇文章集中说明主题所支持的 Markdown 语法和 Hugo Shortcodes 插件，你也可以在这里预览到他们的样子。如果你不喜欢某些样式，可以去</description>
-    </item>
     
     <item>
       <title>Ubuntu设置静态IP</title>
-      <link>https://xinjiguaike.github.io/post/100007/</link>
+      <link>https://xinjiguaike.github.com/post/100007/</link>
       <pubDate>Tue, 17 Jul 2018 17:30:49 +0800</pubDate>
       
-      <guid>https://xinjiguaike.github.io/post/100007/</guid>
+      <guid>https://xinjiguaike.github.com/post/100007/</guid>
       <description>Ubuntu的网络参数保存在文件 /etc/network/interfaces中，默认设置使用dhcp，内容如下： # The primary network interface auto eth0 iface eth0 inet dhcp 设置</description>
     </item>
     
     <item>
       <title>基于keystoneJS的后台管理系统</title>
-      <link>https://xinjiguaike.github.io/post/100006/</link>
+      <link>https://xinjiguaike.github.com/post/100006/</link>
       <pubDate>Sun, 15 Jul 2018 17:30:49 +0800</pubDate>
       
-      <guid>https://xinjiguaike.github.io/post/100006/</guid>
+      <guid>https://xinjiguaike.github.com/post/100006/</guid>
       <description>环境安装： node 环境（node，npm, 建议nvm管理） pm2 安装（npm install -g pm2） nginx 安装 redis 安装 mongo 安装 项目部署： 下载代码（git clone） 创建c</description>
     </item>
     
     <item>
       <title>Meteor部署问题汇总</title>
-      <link>https://xinjiguaike.github.io/post/100005/</link>
+      <link>https://xinjiguaike.github.com/post/100005/</link>
       <pubDate>Fri, 13 Jul 2018 16:30:49 +0800</pubDate>
       
-      <guid>https://xinjiguaike.github.io/post/100005/</guid>
+      <guid>https://xinjiguaike.github.com/post/100005/</guid>
       <description>服务器环境部署meteor 服务器包含： nodejs、git、mongodb 安装meteor $ curl https://install.meteor.com/ | sh 安装demeteorizer $ npm install -g demeteorizer 安</description>
     </item>
     
     <item>
       <title>Docker环境部署问题汇总</title>
-      <link>https://xinjiguaike.github.io/post/100004/</link>
+      <link>https://xinjiguaike.github.com/post/100004/</link>
       <pubDate>Sat, 23 Jun 2018 15:30:49 +0800</pubDate>
       
-      <guid>https://xinjiguaike.github.io/post/100004/</guid>
+      <guid>https://xinjiguaike.github.com/post/100004/</guid>
       <description>docker 相关命令： docker ps: 查看当前运行的容器 docker ps -a : 查看所有的容器 docker start {容器id或name} 启动指定容器 docker stop {容器id或name} 停止指定容器 docker rm {容</description>
     </item>
     
     <item>
       <title>高性能架构师必备技能</title>
-      <link>https://xinjiguaike.github.io/post/100003/</link>
+      <link>https://xinjiguaike.github.com/post/100003/</link>
       <pubDate>Mon, 18 Jun 2018 14:30:49 +0800</pubDate>
       
-      <guid>https://xinjiguaike.github.io/post/100003/</guid>
+      <guid>https://xinjiguaike.github.com/post/100003/</guid>
       <description>Rock - 模块通信 链接：http://pan.baidu.com/s/1dFk1rrz 密码：qsk2 Lee - 高性能架构师必备技能-远程调用RPC从入门</description>
     </item>
     
     <item>
       <title>pm2 服务开机自启动</title>
-      <link>https://xinjiguaike.github.io/post/100002/</link>
+      <link>https://xinjiguaike.github.com/post/100002/</link>
       <pubDate>Wed, 13 Jun 2018 12:30:49 +0800</pubDate>
       
-      <guid>https://xinjiguaike.github.io/post/100002/</guid>
+      <guid>https://xinjiguaike.github.com/post/100002/</guid>
       <description>pm2 start index.js —name app_name pm2 save pm2 startup(按照CLI提示复制相应命令并执行) 参考： https://pm2.io/doc/en/runtime/guide/startup-hook/#installation</description>
     </item>
     
     <item>
       <title>ionic 模拟器运行失败解决方案</title>
-      <link>https://xinjiguaike.github.io/post/100001/</link>
+      <link>https://xinjiguaike.github.com/post/100001/</link>
       <pubDate>Mon, 04 Jun 2018 13:50:46 +0200</pubDate>
       
-      <guid>https://xinjiguaike.github.io/post/100001/</guid>
+      <guid>https://xinjiguaike.github.com/post/100001/</guid>
       <description>提示错误： 命令行中编译项目成功，但是无法直接运行至模拟器，提示如下错误： No target specified for emulator. Deploying to undefined simulatorDevice type &amp;quot;com.apple.CoreSimulator.SimDeviceType.undefined&amp;quot; could not be found.[ERROR] An error occurred while running cordova run ios (exit code 1). 解决方案： 在项目</description>
-    </item>
-    
-    <item>
-      <title>This is a hidden post.</title>
-      <link>https://xinjiguaike.github.io/post/hidden-post/</link>
-      <pubDate>Thu, 08 Mar 2018 17:40:19 +0800</pubDate>
-      
-      <guid>https://xinjiguaike.github.io/post/hidden-post/</guid>
-      <description>&lt;p&gt;This post is hidden from the home page.&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>[English] Creating a New Theme</title>
-      <link>https://xinjiguaike.github.io/post/english-preview/</link>
-      <pubDate>Thu, 31 Aug 2017 15:43:48 +0800</pubDate>
-      
-      <guid>https://xinjiguaike.github.io/post/english-preview/</guid>
-      <description>Introduction This tutorial will show you how to create a simple theme in Hugo. I assume that you are familiar with HTML, the bash command line, and that you are comfortable using Markdown to format content. I&amp;rsquo;ll explain how Hugo uses templates and how you can organize your templates to create a theme. I won&amp;rsquo;t cover using CSS to style your theme.
-We&amp;rsquo;ll start with creating a new site with a very basic template.</description>
-    </item>
-    
-    <item>
-      <title>[日本語] 敬語体系</title>
-      <link>https://xinjiguaike.github.io/post/japanese-preview/</link>
-      <pubDate>Wed, 30 Aug 2017 01:53:34 +0800</pubDate>
-      
-      <guid>https://xinjiguaike.github.io/post/japanese-preview/</guid>
-      <description>日本語の敬語体系は、一般に、大きく尊敬語・謙譲語・丁寧語に分類される。文化審議会国語分科会は、2007年2月に「敬語の指針」を答申し、これに</description>
-    </item>
-    
-    <item>
-      <title>[中文] 《长恨歌》</title>
-      <link>https://xinjiguaike.github.io/post/chinese-preview/</link>
-      <pubDate>Wed, 30 Aug 2017 01:37:56 +0800</pubDate>
-      
-      <guid>https://xinjiguaike.github.io/post/chinese-preview/</guid>
-      <description>《长恨歌》是中国唐朝诗人白居易的一首长篇叙事诗。 第一段：贵妃受宠爱 汉皇重色思倾国，御宇多年求不得。杨家有女初长成，养在深闺人未识。 天生丽质难</description>
-    </item>
-    
-    <item>
-      <title>Shortcodes</title>
-      <link>https://xinjiguaike.github.io/post/shortcodes/</link>
-      <pubDate>Tue, 30 Aug 2016 16:01:23 +0800</pubDate>
-      
-      <guid>https://xinjiguaike.github.io/post/shortcodes/</guid>
-      <description>&lt;h1 id=&#34;center-right-left&#34;&gt;center, right, left&lt;/h1&gt;
-
-&lt;pre&gt;&lt;code&gt;## default
-![img](/path/to/img.gif &amp;quot;img&amp;quot;)
-
-{{% center %}}
-## center
-![img](/path/to/img.gif &amp;quot;img&amp;quot;)
-{{% /center %}}
-
-{{% right %}}
-## right
-![img](/path/to/img.gif &amp;quot;img&amp;quot;)
-{{% /right %}}
-
-{{% left %}}
-## left
-![img](/path/to/img.gif &amp;quot;img&amp;quot;)
-{{% /left %}}
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>JS Flowchart Diagrams</title>
-      <link>https://xinjiguaike.github.io/post/js-flowchart-diagrams/</link>
-      <pubDate>Wed, 04 Mar 2015 21:57:50 +0800</pubDate>
-      
-      <guid>https://xinjiguaike.github.io/post/js-flowchart-diagrams/</guid>
-      <description>&lt;h2 id=&#34;usage&#34;&gt;Usage&lt;/h2&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-flowchart&#34;&gt;st=&amp;gt;start: Start|past:&amp;gt;http://www.google.com[blank]
-e=&amp;gt;end: End:&amp;gt;http://www.google.com
-op1=&amp;gt;operation: My Operation|past
-op2=&amp;gt;operation: Stuff|current
-sub1=&amp;gt;subroutine: My Subroutine|invalid
-cond=&amp;gt;condition: Yes
-or No?|approved:&amp;gt;http://www.google.com
-c2=&amp;gt;condition: Good idea|rejected
-io=&amp;gt;inputoutput: catch something...|request
-
-st-&amp;gt;op1(right)-&amp;gt;cond
-cond(yes, right)-&amp;gt;c2
-cond(no)-&amp;gt;sub1(left)-&amp;gt;op1
-c2(yes)-&amp;gt;io-&amp;gt;e
-c2(no)-&amp;gt;op2-&amp;gt;e
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>JS Sequence Diagrams</title>
-      <link>https://xinjiguaike.github.io/post/js-sequence-diagrams/</link>
-      <pubDate>Wed, 04 Mar 2015 21:57:45 +0800</pubDate>
-      
-      <guid>https://xinjiguaike.github.io/post/js-sequence-diagrams/</guid>
-      <description>&lt;h2 id=&#34;usage&#34;&gt;Usage&lt;/h2&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-sequence&#34;&gt;Andrew-&amp;gt;China: Says Hello
-Note right of China: China thinks\nabout it
-China--&amp;gt;Andrew: How are you?
-Andrew-&amp;gt;&amp;gt;China: I am good thanks!
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Syntax Highlighting</title>
-      <link>https://xinjiguaike.github.io/post/syntax-highlighting/</link>
-      <pubDate>Tue, 30 Aug 2011 16:01:23 +0800</pubDate>
-      
-      <guid>https://xinjiguaike.github.io/post/syntax-highlighting/</guid>
-      <description>&lt;pre&gt;&lt;code class=&#34;language-js&#34;&gt;function helloWorld () {
-  alert(&amp;quot;Hello, World!&amp;quot;)
-}
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
     </item>
     
   </channel>

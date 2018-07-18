@@ -2,30 +2,30 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Ubuntu on Rudy Blog</title>
-    <link>https://xinjiguaike.github.io/tags/ubuntu/</link>
+    <link>https://xinjiguaike.github.com/tags/ubuntu/</link>
     <description>Recent content in Ubuntu on Rudy Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <lastBuildDate>Tue, 17 Jul 2018 17:30:49 +0800</lastBuildDate>
     
-	<atom:link href="https://xinjiguaike.github.io/tags/ubuntu/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://xinjiguaike.github.com/tags/ubuntu/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Ubuntu设置静态IP</title>
-      <link>https://xinjiguaike.github.io/post/100007/</link>
+      <link>https://xinjiguaike.github.com/post/100007/</link>
       <pubDate>Tue, 17 Jul 2018 17:30:49 +0800</pubDate>
       
-      <guid>https://xinjiguaike.github.io/post/100007/</guid>
+      <guid>https://xinjiguaike.github.com/post/100007/</guid>
       <description>Ubuntu的网络参数保存在文件 /etc/network/interfaces中，默认设置使用dhcp，内容如下： # The primary network interface auto eth0 iface eth0 inet dhcp 设置</description>
     </item>
     
     <item>
       <title>Docker环境部署问题汇总</title>
-      <link>https://xinjiguaike.github.io/post/100004/</link>
+      <link>https://xinjiguaike.github.com/post/100004/</link>
       <pubDate>Sat, 23 Jun 2018 15:30:49 +0800</pubDate>
       
-      <guid>https://xinjiguaike.github.io/post/100004/</guid>
+      <guid>https://xinjiguaike.github.com/post/100004/</guid>
       <description>docker 相关命令： docker ps: 查看当前运行的容器 docker ps -a : 查看所有的容器 docker start {容器id或name} 启动指定容器 docker stop {容器id或name} 停止指定容器 docker rm {容</description>
     </item>
     
