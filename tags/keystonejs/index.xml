@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Keystonejs on Rudy&#39;s Zone</title>
+    <title>KeystoneJS on Rudy Blog</title>
     <link>https://xinjiguaike.github.io/tags/keystonejs/</link>
-    <description>Recent content in Keystonejs on Rudy&#39;s Zone</description>
+    <description>Recent content in KeystoneJS on Rudy Blog</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <lastBuildDate>Fri, 13 Jul 2018 17:30:49 +0800</lastBuildDate>
+    <language>en</language>
+    <lastBuildDate>Sun, 15 Jul 2018 17:30:49 +0800</lastBuildDate>
     
 	<atom:link href="https://xinjiguaike.github.io/tags/keystonejs/index.xml" rel="self" type="application/rss+xml" />
     
@@ -14,10 +14,10 @@
     <item>
       <title>基于keystoneJS的后台管理系统</title>
       <link>https://xinjiguaike.github.io/post/100006/</link>
-      <pubDate>Fri, 13 Jul 2018 17:30:49 +0800</pubDate>
+      <pubDate>Sun, 15 Jul 2018 17:30:49 +0800</pubDate>
       
       <guid>https://xinjiguaike.github.io/post/100006/</guid>
-      <description> 环境安装：  node 环境（node，npm, 建议nvm管理） pm2 安装（npm install -g pm2） nginx 安装 redis 安装 mongo 安装  项目部署：  下载代码（git clone） 创建config.js() npm install(/var/www/drtalent-web) 配置nginx反向代理 pm2 start bin/www  连接远程mongo服务器 mongo --host xxx -u adminUserName -p userPassword --authenticationDatabase admin  mongo 10.66.233.21:27017/admin -u mongouser -p Mengning123456  关于keystone主题颜色定制：  修改./node_modules/elemental/less/variables.less 中 @app-primary的值（修改主题颜色） 修改./node_modules/keystone/admin/client/theme.js 中 theme.color中的primary的值（修改控件主题颜色）（注意修改后删除已编译文件）  </description>
+      <description>环境安装： node 环境（node，npm, 建议nvm管理） pm2 安装（npm install -g pm2） nginx 安装 redis 安装 mongo 安装 项目部署： 下载代码（git clone） 创建c</description>
     </item>
     
   </channel>
