@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-  <title>基于keystoneJS的后台管理系统 - Rudy Blog</title>
+  <title>基于keystoneJS的后台管理系统的部署 - Rudy Blog</title>
   <meta name="renderer" content="webkit" />
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
 
@@ -49,7 +49,7 @@
 
 
 
-<meta property="og:title" content="基于keystoneJS的后台管理系统" />
+<meta property="og:title" content="基于keystoneJS的后台管理系统的部署" />
 <meta property="og:description" content="环境安装： node 环境（node，npm, 建议nvm管理） pm2 安装（npm install -g pm2） nginx 安装 redis 安装 mongo 安装 项目部署： 下载代码（git clone） 创建c" />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://xinjiguaike.github.com/post/100006/" />
@@ -70,19 +70,19 @@
 
 
 
-<meta itemprop="name" content="基于keystoneJS的后台管理系统">
+<meta itemprop="name" content="基于keystoneJS的后台管理系统的部署">
 <meta itemprop="description" content="环境安装： node 环境（node，npm, 建议nvm管理） pm2 安装（npm install -g pm2） nginx 安装 redis 安装 mongo 安装 项目部署： 下载代码（git clone） 创建c">
 
 
 <meta itemprop="datePublished" content="2018-07-15T17:30:49&#43;08:00" />
 <meta itemprop="dateModified" content="2018-07-15T17:30:49&#43;08:00" />
-<meta itemprop="wordCount" content="303">
+<meta itemprop="wordCount" content="317">
 
 
 
 <meta itemprop="keywords" content="keystoneJS,node.js,nginx,mongo,redis,pm2," />
 <meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="基于keystoneJS的后台管理系统"/>
+<meta name="twitter:title" content="基于keystoneJS的后台管理系统的部署"/>
 <meta name="twitter:description" content="环境安装： node 环境（node，npm, 建议nvm管理） pm2 安装（npm install -g pm2） nginx 安装 redis 安装 mongo 安装 项目部署： 下载代码（git clone） 创建c"/>
 
 <!--[if lte IE 9]>
@@ -150,7 +150,7 @@
           <article class="post">
     
     <header class="post-header">
-      <h1 class="post-title">基于keystoneJS的后台管理系统</h1>
+      <h1 class="post-title">基于keystoneJS的后台管理系统的部署</h1>
 
       <div class="post-meta">
         <span class="post-time"> 2018-07-15 </span>
@@ -209,17 +209,17 @@
 <ol>
 <li>下载代码（git clone）</li>
 <li>创建config.js()</li>
-<li>npm install(/var/www/drtalent-web)</li>
+<li>npm install(项目目录)</li>
 <li>配置nginx反向代理</li>
 <li>pm2 start bin/www</li>
 </ol>
 
 <h3 id="连接远程mongo服务器">连接远程mongo服务器</h3>
 
-<pre><code class="language-shell">mongo --host xxx -u adminUserName -p userPassword --authenticationDatabase admin
+<pre><code class="language-shell">$ mongo --host xxx -u adminUserName -p userPassword --authenticationDatabase admin
 </code></pre>
 
-<pre><code class="language-shell">mongo 10.66.233.21:27017/admin -u mongouser  -p Mengning123456
+<pre><code class="language-shell">$ mongo xx.xx.xx.xx:xx/admin -u mongouser  -p ****
 </code></pre>
 
 <hr />
@@ -286,25 +286,22 @@
   </article>
         </div>
         
-  <div id="comments-gitment"></div>
-  <link rel="stylesheet" href="/lib/gitment/gitment-0.0.3.min.css">
-    <script src="/lib/gitment/gitment-0.0.3.min.js"></script>
+  <div id="lv-container" data-id="city" data-uid="MTAyMC8zODE3Ni8xNDcwNA==">
   <script type="text/javascript">
-  const gitment = new Gitment({
-    id: '2018-07-15 17:30:49 \x2b0800 CST',
-    title: '基于keystoneJS的后台管理系统',
-    link: decodeURI(location.href),
-    desc: '环境安装： node 环境（node，npm, 建议nvm管理） pm2 安装（npm install -g pm2） nginx 安装 redis 安装 mongo 安装 项目部署： 下载代码（git clone） 创建c',
-    owner: 'xinjiguaike',
-    repo: 'xinjiguaike.github.io',
-    oauth: {
-      client_id: 'adaa0ca144e87300a5d9',
-      client_secret: '515c7cb793c2c284de53f1b35bd939d68c8d1ec8'
-    }
-  })
-  gitment.render('comments-gitment')
+    (function(d, s) {
+      var j, e = d.getElementsByTagName(s)[0];
+
+      if (typeof LivereTower === 'function') { return; }
+
+      j = d.createElement(s);
+      j.src = 'https://cdn-city.livere.com/js/embed.dist.js';
+      j.async = true;
+
+      e.parentNode.insertBefore(j, e);
+    })(document, 'script');
   </script>
-  <noscript>Please enable JavaScript to view the <a href="https://github.com/imsun/gitment">comments powered by gitment.</a></noscript>
+  <noscript>Please enable JavaScript to view the comments powered by <a href="https://livere.com/">LiveRe.</a></noscript>
+  </div>
 
   
 

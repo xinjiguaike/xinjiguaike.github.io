@@ -10,6 +10,13 @@
   </url>
   
   <url>
+    <loc>https://xinjiguaike.github.com/post/evernote/</loc>
+    <lastmod>2018-07-19T10:20:03+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
     <loc>https://xinjiguaike.github.com/post/100008/</loc>
     <lastmod>2018-07-18T13:15:29+08:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -128,6 +135,13 @@
   </url>
   
   <url>
+    <loc>https://xinjiguaike.github.com/tags/markdown/</loc>
+    <lastmod>2018-07-19T10:20:03+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://xinjiguaike.github.com/tags/meteor/</loc>
     <lastmod>2018-07-13T16:30:49+08:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -185,7 +199,7 @@
   
   <url>
     <loc>https://xinjiguaike.github.com/post/</loc>
-    <lastmod>2018-07-18T13:15:29+08:00</lastmod>
+    <lastmod>2018-07-19T10:20:03+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0</priority>
   </url>
@@ -234,7 +248,7 @@
   
   <url>
     <loc>https://xinjiguaike.github.com/categories/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/</loc>
-    <lastmod>2018-07-18T13:15:29+08:00</lastmod>
+    <lastmod>2018-07-19T10:20:03+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0</priority>
   </url>
@@ -277,6 +291,13 @@
   <url>
     <loc>https://xinjiguaike.github.com/categories/%E8%A7%86%E9%A2%91%E8%B5%84%E6%BA%90/</loc>
     <lastmod>2018-06-18T14:30:49+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://xinjiguaike.github.com/tags/%E9%A9%AC%E5%85%8B%E9%A3%9E%E8%B1%A1/</loc>
+    <lastmod>2018-07-19T10:20:03+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0</priority>
   </url>

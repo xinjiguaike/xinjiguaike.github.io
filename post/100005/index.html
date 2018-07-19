@@ -76,7 +76,7 @@
 
 <meta itemprop="datePublished" content="2018-07-13T16:30:49&#43;08:00" />
 <meta itemprop="dateModified" content="2018-07-13T16:30:49&#43;08:00" />
-<meta itemprop="wordCount" content="440">
+<meta itemprop="wordCount" content="431">
 
 
 
@@ -283,8 +283,9 @@ Error: listen EACCES
 
 <p>编辑 /etc/sudoers 增加行</p>
 
-<pre><code class="language-shell">Defaults visiblepw;
-</code></pre>
+<blockquote>
+<p>Defaults visiblepw;</p>
+</blockquote>
 
 <p>参考：<a href="http://blog.csdn.net/buptxx/article/details/8241997">http://blog.csdn.net/buptxx/article/details/8241997</a></p>
 
@@ -292,26 +293,27 @@ Error: listen EACCES
 
 <h3 id="apache-反向代理设置">Apache 反向代理设置：</h3>
 
-<pre><code class="language-shell">ProxyPass /groupchat http://www.pay4china.com:3000/groupchat max=20 ttl=120 retry=300
-ProxyPassReverse /groupchat http://www.pay4china:3000/groupchat
-</code></pre>
+<blockquote>
+<p>ServerName localhost</br></br>
+&lt;VirtualHost *:80&gt;</p>
 
-<pre><code class="language-shell">ServerName localhost
+<p>ServerName www.pay4china2.com</p>
 
-&lt;VirtualHost *:80&gt;
-ServerName www.pay4china2.com
+<p>ProxyRequests Off</br></br></p>
 
-ProxyRequests Off
+<p>&lt;Proxy *&gt;</p>
 
-&lt;Proxy *&gt;
-    Order deny,allow
-    Allow from all
-&lt;/Proxy&gt;
+<p>&ensp;&ensp;&ensp;&ensp;Order deny,allow</p>
 
-ProxyPass /groupchat http://www.pay4china.com:3000/groupchat max=20 ttl=120 retry=300
-ProxyPassReverse /groupchat http://www.pay4china:3000/groupchat
-&lt;/VirtualHost&gt;
-</code></pre>
+<p>&ensp;&ensp;&ensp;&ensp;Allow from all</p>
+
+<p>&lt;/Proxy&gt;</br></br></p>
+
+<p>ProxyPass /groupchat <a href="http://www.pay4china.com:3000/groupchat">http://www.pay4china.com:3000/groupchat</a> max=20 ttl=120 retry=300
+ProxyPassReverse /groupchat <a href="http://www.pay4china:3000/groupchat">http://www.pay4china:3000/groupchat</a></p>
+
+<p>&lt;/VirtualHost&gt;</p>
+</blockquote>
 
 <h3 id="反向代理配置-q-a">反向代理配置 Q&amp;A</h3>
 
@@ -375,7 +377,7 @@ make sure the proxy submodules are included in the 	configuration using LoadModu
         
           <a class="prev" href="/post/100006/">
             <i class="iconfont icon-left"></i>
-            <span class="prev-text nav-default">基于keystoneJS的后台管理系统</span>
+            <span class="prev-text nav-default">基于keystoneJS的后台管理系统的部署</span>
             <span class="prev-text nav-mobile">上一篇</span>
           </a>
         
@@ -389,25 +391,22 @@ make sure the proxy submodules are included in the 	configuration using LoadModu
   </article>
         </div>
         
-  <div id="comments-gitment"></div>
-  <link rel="stylesheet" href="/lib/gitment/gitment-0.0.3.min.css">
-    <script src="/lib/gitment/gitment-0.0.3.min.js"></script>
+  <div id="lv-container" data-id="city" data-uid="MTAyMC8zODE3Ni8xNDcwNA==">
   <script type="text/javascript">
-  const gitment = new Gitment({
-    id: '2018-07-13 16:30:49 \x2b0800 CST',
-    title: 'Meteor部署问题汇总',
-    link: decodeURI(location.href),
-    desc: '服务器环境部署meteor 服务器包含： nodejs、git、mongodb 安装meteor $ curl https:\/\/install.meteor.com\/ | sh 安装demeteorizer $ npm install -g demeteorizer 安',
-    owner: 'xinjiguaike',
-    repo: 'xinjiguaike.github.io',
-    oauth: {
-      client_id: 'adaa0ca144e87300a5d9',
-      client_secret: '515c7cb793c2c284de53f1b35bd939d68c8d1ec8'
-    }
-  })
-  gitment.render('comments-gitment')
+    (function(d, s) {
+      var j, e = d.getElementsByTagName(s)[0];
+
+      if (typeof LivereTower === 'function') { return; }
+
+      j = d.createElement(s);
+      j.src = 'https://cdn-city.livere.com/js/embed.dist.js';
+      j.async = true;
+
+      e.parentNode.insertBefore(j, e);
+    })(document, 'script');
   </script>
-  <noscript>Please enable JavaScript to view the <a href="https://github.com/imsun/gitment">comments powered by gitment.</a></noscript>
+  <noscript>Please enable JavaScript to view the comments powered by <a href="https://livere.com/">LiveRe.</a></noscript>
+  </div>
 
   
 

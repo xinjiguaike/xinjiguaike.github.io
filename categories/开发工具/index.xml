@@ -6,13 +6,22 @@
     <description>Recent content in 开发工具 on Rudy Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 18 Jul 2018 13:15:29 +0800</lastBuildDate>
+    <lastBuildDate>Thu, 19 Jul 2018 10:20:03 +0800</lastBuildDate>
     
 	<atom:link href="https://xinjiguaike.github.com/categories/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>oh-my-zsh: git Plugin</title>
+      <title>Evernote</title>
+      <link>https://xinjiguaike.github.com/post/evernote/</link>
+      <pubDate>Thu, 19 Jul 2018 10:20:03 +0800</pubDate>
+      
+      <guid>https://xinjiguaike.github.com/post/evernote/</guid>
+      <description>欢迎使用马克飞象 @(示例笔记本)[马克飞象|帮助|Markdown] 马克飞象是一款专为印象笔记（Evernote）打造的Markdown编辑</description>
+    </item>
+    
+    <item>
+      <title>【转】oh-my-zsh: git Plugin</title>
       <link>https://xinjiguaike.github.com/post/100008/</link>
       <pubDate>Wed, 18 Jul 2018 13:15:29 +0800</pubDate>
       

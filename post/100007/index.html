@@ -199,10 +199,13 @@
 
 <h3 id="ubuntu的网络参数保存在文件-etc-network-interfaces中-默认设置使用dhcp-内容如下">Ubuntu的网络参数保存在文件 /etc/network/interfaces中，默认设置使用dhcp，内容如下：</h3>
 
-<pre><code class="language-shell"># The primary network interface
-auto eth0
-iface eth0 inet dhcp
-</code></pre>
+<blockquote>
+<p># The primary network interface</p>
+
+<p>auto eth0</p>
+
+<p>iface eth0 inet dhcp</p>
+</blockquote>
 
 <h3 id="设置静态ip的方法如下">设置静态ip的方法如下：</h3>
 
@@ -211,26 +214,35 @@ iface eth0 inet dhcp
 
 <p>a. 将dhcp 一行屏蔽</p>
 
-<pre><code class="language-shell"># The primary network interface
-auto eth0
-#iface eth0 inet dhcp
-</code></pre>
+<blockquote>
+<p># The primary network interface</p>
+
+<p>auto eth0</p>
+
+<p>#iface eth0 inet dhcp</p>
+</blockquote>
 
 <p>b. 添加和静态ip有关的参数</p>
 
-<pre><code class="language-shell"># The primary network interface
-iface eth0 inet static\
-    
-address 192.168.0.10
-netmask 255.255.255.0
-gateway 192.168.0.1
-</code></pre></li>
+<blockquote>
+<p># The primary network interface</p>
+
+<p>iface eth0 inet static</p>
+
+<p>address 192.168.0.10</p>
+
+<p>netmask 255.255.255.0</p>
+
+<p>gateway 192.168.0.1</p>
+</blockquote></li>
 
 <li><h4 id="编辑-etc-resolv-conf-设置dns">编辑 /etc/resolv.conf，设置dns</h4>
 
-<pre><code class="language-shell">nameserver 202.96.134.133
-nameserver 202.106.0.20
-</code></pre></li>
+<blockquote>
+<p>nameserver 202.96.134.133</p>
+
+<p>nameserver 202.106.0.20</p>
+</blockquote></li>
 
 <li><h4 id="执行下面两个命令-启用新设置">执行下面两个命令，启用新设置</h4>
 
@@ -274,12 +286,12 @@ $ sudo ifup eth0
         
           <a class="prev" href="/post/100008/">
             <i class="iconfont icon-left"></i>
-            <span class="prev-text nav-default">oh-my-zsh: git Plugin</span>
+            <span class="prev-text nav-default">【转】oh-my-zsh: git Plugin</span>
             <span class="prev-text nav-mobile">上一篇</span>
           </a>
         
           <a class="next" href="/post/100006/">
-            <span class="next-text nav-default">基于keystoneJS的后台管理系统</span>
+            <span class="next-text nav-default">基于keystoneJS的后台管理系统的部署</span>
             <span class="next-text nav-mobile">下一篇</span>
             <i class="iconfont icon-right"></i>
           </a>
@@ -288,25 +300,22 @@ $ sudo ifup eth0
   </article>
         </div>
         
-  <div id="comments-gitment"></div>
-  <link rel="stylesheet" href="/lib/gitment/gitment-0.0.3.min.css">
-    <script src="/lib/gitment/gitment-0.0.3.min.js"></script>
+  <div id="lv-container" data-id="city" data-uid="MTAyMC8zODE3Ni8xNDcwNA==">
   <script type="text/javascript">
-  const gitment = new Gitment({
-    id: '2018-07-17 17:30:49 \x2b0800 CST',
-    title: 'Ubuntu设置静态IP',
-    link: decodeURI(location.href),
-    desc: 'Ubuntu的网络参数保存在文件 \/etc\/network\/interfaces中，默认设置使用dhcp，内容如下： # The primary network interface auto eth0 iface eth0 inet dhcp 设置',
-    owner: 'xinjiguaike',
-    repo: 'xinjiguaike.github.io',
-    oauth: {
-      client_id: 'adaa0ca144e87300a5d9',
-      client_secret: '515c7cb793c2c284de53f1b35bd939d68c8d1ec8'
-    }
-  })
-  gitment.render('comments-gitment')
+    (function(d, s) {
+      var j, e = d.getElementsByTagName(s)[0];
+
+      if (typeof LivereTower === 'function') { return; }
+
+      j = d.createElement(s);
+      j.src = 'https://cdn-city.livere.com/js/embed.dist.js';
+      j.async = true;
+
+      e.parentNode.insertBefore(j, e);
+    })(document, 'script');
   </script>
-  <noscript>Please enable JavaScript to view the <a href="https://github.com/imsun/gitment">comments powered by gitment.</a></noscript>
+  <noscript>Please enable JavaScript to view the comments powered by <a href="https://livere.com/">LiveRe.</a></noscript>
+  </div>
 
   
 
